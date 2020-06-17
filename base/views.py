@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.contrib import messages, auth
+from django.core.exceptions import ValidationError
+from django.contrib.auth.models import User
+from .models import Team
 
 
 def index(request):
@@ -8,7 +11,7 @@ def index(request):
 
 
 def login(request):
-    if request.method == "POST":
+    if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
         user = auth.authenticate(username=username, password=password)  # 认证给出的用户名和密码
@@ -19,11 +22,31 @@ def login(request):
             return response
         else:
             messages.add_message(request, messages.WARNING, '账户或者密码错误，请检查')
-            return render(request, 'login.html')
-    elif request.method == "GET":
-        return render(request, 'login.html')
-    return render(request, 'login.html')
+            return render(request, 'login/login.html')
+    elif request.method == 'GET':
+        return render(request, 'login/login.html')
+    return render(request, 'login/login.html')
 
 
 def team(request):
-    return render(request, 'base_team.html')
+    te = Team.objects.all()
+    return render(request, 'team/team.html', {'tram': te})
+
+
+def create_team(request):
+    if request.method == 'POST':
+        t = Team()
+        t.name = request.POST.get('name', '')
+        t.remark = request.POST.get('remarks', '')
+        username = request.session['user']
+        t.creator = User.objects.get(username=username)
+        try:
+            t.clean()
+        except ValidationError as error:
+            return render(request, 'team/create.html', error.message_dict)
+        try:
+            t.save()
+        except Exception as e:
+            return render(request, 'team/create.html', {'error': e.args})
+        return HttpResponseRedirect('/base/team/')
+    return render(request, 'team/create.html')

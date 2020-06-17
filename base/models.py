@@ -12,9 +12,9 @@ class Team(models.Model):
     createTime = models.DateTimeField(default=timezone.now)
 
     class Meta:
-        db_table = 'project'
+        db_table = 'team'
 
     def clean(self):
         name = self.name.strip() if self.name else ""
         if 0 >= len(name) or len(name) > 20:
-            raise ValidationError({'name': '无效的项目名称'})
+            raise ValidationError({'error': '无效的团队名称'})
