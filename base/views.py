@@ -4,6 +4,7 @@ from django.contrib import messages, auth
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 from .models import Team
+from public.get_model import get_model
 
 
 def index(request):
@@ -29,7 +30,7 @@ def login(request):
 
 
 def team(request):
-    te = Team.objects.all()
+    te = get_model(Team, get=False)
     return render(request, 'team/team.html', {'tram': te})
 
 
@@ -39,7 +40,7 @@ def create_team(request):
         t.name = request.POST.get('name', '')
         t.remark = request.POST.get('remarks', '')
         username = request.session['user']
-        t.creator = User.objects.get(username=username)
+        t.creator = get_model(User, username=username)
         try:
             t.clean()
         except ValidationError as error:
@@ -50,3 +51,7 @@ def create_team(request):
             return render(request, 'team/create.html', {'error': e.args})
         return HttpResponseRedirect('/base/team/')
     return render(request, 'team/create.html')
+
+
+def home(request):
+    return render(request, 'base/home.html')

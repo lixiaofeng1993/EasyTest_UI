@@ -13,4 +13,5 @@ app_name = "base"
 urlpatterns = [
     path('team/', views.team, name='team'),
     path('team/create/', views.create_team, name='create_team'),
+    path('home/', views.home, name='home'),
 ]

@@ -77,8 +77,9 @@
                                                 </div>
                                             </div>
                                             <div class="user-avatar-address">
-                                                <p class="mb-2">{{ foo.creator }}<span class="m-l-10">Male<span
-                                                            class="m-l-20">29 Year Old</span></span>
+                                                <p class="mb-2">{{ foo.creator }}<span class="m-l-10">于<span
+                                                        class="m-l-20">{{ foo.createTime }}<span
+                                                        class="m-l-10"> 创建</span></span></span>
                                                 </p>
                                                 <div class="mt-3">
                                                     <a href="#" class="mr-1 badge badge-light">Fitness</a><a href="#"
@@ -93,7 +94,7 @@
                                     <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="float-xl-right float-none mt-xl-0 mt-4">
                                             <a href="#" class="btn-wishlist m-r-10"><i class="far fa-star"></i></a>
-                                            <a href="#" class="btn btn-secondary">Send Messages</a>
+                                            <a href="{% url 'base:home' %}" class="btn btn-secondary">Send Messages</a>
                                         </div>
                                     </div>
                                 </div>
