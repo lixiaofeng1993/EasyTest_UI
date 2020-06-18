@@ -18,3 +18,8 @@ class Team(models.Model):
         name = self.name.strip() if self.name else ""
         if 0 >= len(name) or len(name) > 20:
             raise ValidationError({'error': '无效的团队名称'})
+
+
+class TeamUsers(models.Model):
+    team_id = models.ForeignKey(Team, on_delete=models.CASCADE, default=None)
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
