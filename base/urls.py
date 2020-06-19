@@ -13,5 +13,7 @@ app_name = "base"
 urlpatterns = [
     path('team/', views.team, name='team'),
     path('team/create/', views.create_team, name='create_team'),
+    path('team/join/', views.team_join, name='team_join'),
+    path('team/apply/<int:tid>/', views.team_apply, name='team_apply'),
     path('home/', views.home, name='home'),
 ]

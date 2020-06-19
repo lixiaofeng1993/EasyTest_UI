@@ -9,7 +9,7 @@ class Team(models.Model):
     remark = models.TextField(null=True)
     creator = models.ForeignKey(User, on_delete=models.CASCADE, default='lixiaofeng')
     update_time = models.DateTimeField('更新时间', auto_now=True)
-    createTime = models.DateTimeField(default=timezone.now)
+    create_time = models.DateTimeField(default=timezone.now)
 
     class Meta:
         db_table = 'team'
@@ -21,5 +21,10 @@ class Team(models.Model):
 
 
 class TeamUsers(models.Model):
-    team_id = models.ForeignKey(Team, on_delete=models.CASCADE, default=None)
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
+    team = models.ForeignKey(Team, on_delete=models.CASCADE, default=None)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
+    status = models.IntegerField(default=0)  # 申请状态
+    create_time = models.DateTimeField(default=timezone.now)
+
+    class Meta:
+        db_table = 'team_users'
