@@ -15,7 +15,7 @@
                                     <li class="breadcrumb-item"><span>Choose
                                         the right
                                         people to join your team！</span></li>
-                                    <li class="breadcrumb-item"><a href="{% url 'base:team' %}" class="breadcrumb-link">Back
+                                    <li class="breadcrumb-item"><a href="{% url 'team' %}" class="breadcrumb-link">Back
                                         to team page</a></li>
                                 </ol>
                             </nav>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 col-12">
 
                     <div class="card">
                         <div class="card-body">
@@ -39,20 +39,33 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {% for foo in join %}
+                                {% if join %}
+                                    {% for foo in join %}
+                                        <tr>
+                                            <th scope="row">{{ forloop.counter }}</th>
+                                            <td>{{ foo.user.username }}</td>
+                                            <td>{{ foo.create_time }}</td>
+                                            <td>
+                                                <button class="badge badge-success" onclick="apply({{ foo.id }})">同意
+                                                </button>
+                                                <button class="badge badge-danger" style="margin-left: 1%">拒绝</button>
+
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                {% else %}
                                     <tr>
-                                        <th scope="row">{{ forloop.counter }}</th>
-                                        <td>{{ foo.user.username }}</td>
-                                        <td>{{ foo.create_time }}</td>
-                                        <td>
-                                            <button class="badge badge-success" onclick="apply({{ foo.id }})">同意
-                                            </button>
-                                            <button class="badge badge-danger" style="margin-left: 1%">拒绝</button>
 
-                                        </td>
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert"
+                                            id="error"
+                                            style="display: block">
+                                            <span id="error-msg">还没有人发起申请呢~~~</span>
+                                            <a href="#" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </a>
+                                        </div>
                                     </tr>
-                                {% endfor %}
-
+                                {% endif %}
                                 </tbody>
                             </table>
                         </div>
@@ -70,7 +83,7 @@
         function apply(apply_id) {
             $.ajax({
                 type: "post",
-                url: "/base/team/apply/" + {{ tid }} +"/",
+                url: "/team/apply/" + {{ tid }} +"/",
                 data: {
                     "apply_id": apply_id
                 },

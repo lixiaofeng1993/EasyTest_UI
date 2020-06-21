@@ -15,7 +15,7 @@
                         <div class="page-breadcrumb">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="{% url 'base:create_team' %}"
+                                    <li class="breadcrumb-item"><a href="{% url 'create_team' %}"
                                                                    class="breadcrumb-link">创建团队</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">新建一个团队开始 ba ~~~
                                     </li>
@@ -53,7 +53,7 @@
                     <!-- ============================================================== -->
                     <!-- card influencer one -->
                     <!-- ============================================================== -->
-                    {% for foo in tram %}
+                    {% for foo in object_list %}
                         <div class="card">
                             <div class="card-body">
                                 <div class="row align-items-center">
@@ -78,11 +78,11 @@
                                             </div>
                                             <div class="user-avatar-address">
                                                 <p class="mb-2">{{ foo.creator }}<span class="m-l-10">于<span
-                                                        class="m-l-20">{{ foo.createTime }}<span
+                                                        class="m-l-20">{{ foo.create_time }}<span
                                                         class="m-l-10"> 创建</span></span></span>
                                                 </p>
                                                 <div class="mt-3">
-                                                    <a href="#" class="mr-1 badge badge-light">编辑</a>
+                                                    <a href="/team/edit/{{ foo.id }}/" class="mr-1 badge badge-light">编辑</a>
                                                     <a href="javascript:void(0)" class="mr-1 badge badge-light"
                                                        onclick="join({{ foo.id }})">审核/加入</a>
                                                 </div>
@@ -92,7 +92,8 @@
                                     <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="float-xl-right float-none mt-xl-0 mt-4">
                                             <a href="#" class="btn-wishlist m-r-10"><i class="far fa-star"></i></a>
-                                            <a href="{% url 'base:home' %}" class="btn btn-secondary">GO Team</a>
+                                            <a href="javascript:void(0)" onclick="go_team({{ foo.id }})"
+                                               class="btn btn-secondary">GO Team</a>
                                         </div>
                                     </div>
                                 </div>
@@ -126,6 +127,46 @@
                     <!-- ============================================================== -->
                 </div>
             </div>
+            {% if is_paginated %}
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                {#                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>#}
+                                {% if first %}
+                                    <li class="page-item"><a class="page-link" href="?page=1">1</a></li>
+                                {% endif %}
+                                {% if left %}
+                                    {% if left_has_more %}
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">...</a>
+                                        </li>
+                                    {% endif %}
+                                    {% for i in left %}
+                                        <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                                    {% endfor %}
+                                {% endif %}
+                                <li class="page-item active"><a class="page-link"
+                                                                href="javascript:void(0)">{{ page_obj.number }}</a>
+                                </li>
+                                {% if right %}
+                                    {% for i in right %}
+                                        <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                                    {% endfor %}
+                                    {% if right_has_more %}
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">...</a>
+                                        </li>
+                                    {% endif %}
+                                {% endif %}
+                                {% if last %}
+                                    <li class="page-item"><a class="page-link"
+                                                             href="?page={{ paginator.num_pages }}">{{ paginator.num_pages }}</a>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            {% endif %}
         </div>
     </div>
 {% endblock %}
@@ -135,23 +176,47 @@
         function join(t_id) {
             $.ajax({
                 type: "post",
-                url: "{% url 'base:team_join' %}",
+                url: "{% url 'team_join' %}",
                 data: {
                     "tid": t_id
                 },
                 success: function (data) {
                     console.log(data);
                     var msg = $("#error-msg-" + t_id);
-                    msg.html(data.message);
                     if (data.code == 999) {
+                        msg.html(data.message);
                         msg.addClass('text-danger');
                         $("#error" + t_id).show();
                     } else if (data.code == 200) {
+                        msg.html(data.message);
                         msg.addClass('text-success');
                         $("#error" + t_id).show();
                     } else if (data.code == 403) {
-                        console.log(typeof t_id);
-                        window.location.href = 'http://localhost:8000/base/team/apply/' + t_id + '/';
+                        window.location.href = 'http://localhost:8000/team/apply/' + t_id + '/';
+                    }
+                }
+            })
+        }
+        // /base/home/{{ foo.id }}/
+        function go_team(t_id) {
+            $.ajax({
+                type: "post",
+                url: "{% url 'team_go' %}",
+                data: {
+                    "tid": t_id
+                },
+                success: function (data) {
+                    console.log(data);
+                    var msg = $("#error-msg-" + t_id);
+
+                    if (data.code == 999) {
+                        if (data.data.status) {
+                            window.location.href = 'http://localhost:8000/base/home/' + t_id + '/';
+                        } else {
+                            msg.addClass('text-danger');
+                            msg.html(data.message);
+                            $("#error" + t_id).show();
+                        }
                     }
                 }
             })

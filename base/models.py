@@ -28,3 +28,19 @@ class TeamUsers(models.Model):
 
     class Meta:
         db_table = 'team_users'
+
+
+class ModularTable(models.Model):
+    team = models.ForeignKey(Team, on_delete=models.CASCADE, default=None)
+    url = models.CharField(max_length=255)
+    Icon = models.CharField(max_length=255)
+    model_name = models.CharField(max_length=6)
+    status = models.IntegerField(default=1)
+
+    class Meta:
+        db_table = 'modular'
+
+    def clean(self):
+        name = self.model_name.strip() if self.model_name else ""
+        if 0 >= len(name) or len(name) > 6:
+            raise ValidationError({'error': '无效的模块名称'})

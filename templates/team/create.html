@@ -8,14 +8,26 @@
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="section-block" id="basicform">
-                            <h3 class="section-title">创建一个团队</h3>
-                            <p>No permission please contact the administrator ~~~</p>
+                        <div class="page-header">
+                            <h2 class="pageheader-title">创建一个团队</h2>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><span>No permission please contact the administrator ~~~</span></li>
+                                        <li class="breadcrumb-item"><a href="{% url 'team' %}" class="breadcrumb-link">Back
+                                            to team page</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
                             {#                            <h5 class="card-header">Basic Form</h5>#}
                             <div class="card-body">
-                                <form action="{% url 'base:create_team' %}" method="post">
+                                <form action="{% url 'create_team' %}" method="post">
                                     {% csrf_token %}
                                     <div class="form-group">
                                         <label for="inputText3" class="col-form-label">团队名称</label>

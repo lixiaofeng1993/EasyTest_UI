@@ -17,10 +17,19 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from base import views, urls
+from team import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index, name='index'),
     path('login/', views.login, name='login'),
+    path('register/', views.register, name='register'),
+    path('logout/', views.logout, name='logout'),
+    path('team/', views.TeamIndex.as_view(), name='team'),
+    path('team/go/', views.team_go, name='team_go'),
+    path('team/create/', views.create_team, name='create_team'),
+    path('team/join/', views.team_join, name='team_join'),
+    path('team/apply/<int:tid>/', views.team_apply, name='team_apply'),
+    path('team/edit/<int:tid>/', views.team_edit, name='team_edit'),
+    path('team/modular/<int:tid>/', views.team_modular, name='team_modular'),
     path('base/', include(urls, 'base'), name='base'),
 ]
