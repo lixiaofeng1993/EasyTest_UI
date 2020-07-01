@@ -1,0 +1,1097 @@
+[2020-06-29 17:35:51,678] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:36:16,409] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\EasyTest_UI\settings.py changed, reloading.
+[2020-06-29 17:36:17,447] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:36:42,245] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\tasks.py changed, reloading.
+[2020-06-29 17:36:43,245] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:42:07,182] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\tasks.py changed, reloading.
+[2020-06-29 17:42:08,186] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:42:54,146] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\tasks.py changed, reloading.
+[2020-06-29 17:42:55,221] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:47:02,794] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\tasks.py changed, reloading.
+[2020-06-29 17:47:04,003] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:48:24,884] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\tasks.py changed, reloading.
+[2020-06-29 17:48:25,955] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:49:14,166] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 17:49:15,189] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:49:33,059] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 17:49:34,113] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:51:58,321] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 17:51:59,334] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:52:34,869] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\team\views.py changed, reloading.
+[2020-06-29 17:52:35,886] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:53:25,945] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 17:53:27,077] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:57:12,484] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 17:57:13,497] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:58:00,565] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\team\views.py changed, reloading.
+[2020-06-29 17:58:01,628] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 17:58:07,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 20761
+[2020-06-29 17:58:07,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/comment_img.jpeg HTTP/1.1" 304 0
+[2020-06-29 17:58:07,609] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 17:58:07,611] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 17:58:07,611] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 17:58:07,612] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 17:58:07,622] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 17:58:07,624] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 17:58:07,625] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 17:58:07,625] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 17:58:07,633] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 17:58:07,636] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 17:58:07,637] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 17:58:07,638] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 17:58:07,642] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/userImg.jpeg HTTP/1.1" 304 0
+[2020-06-29 17:58:10,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/create/ HTTP/1.1" 200 13283
+[2020-06-29 17:58:10,232] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/github.png
+[2020-06-29 17:58:10,238] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/dribbble.png
+[2020-06-29 17:58:10,239] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/github.png HTTP/1.1" 404 3467
+[2020-06-29 17:58:10,244] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/dribbble.png HTTP/1.1" 404 3473
+[2020-06-29 17:58:10,248] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/slack.png
+[2020-06-29 17:58:10,251] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/bitbucket.png
+[2020-06-29 17:58:10,254] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/mail_chimp.png
+[2020-06-29 17:58:10,256] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/dropbox.png
+[2020-06-29 17:58:10,256] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/bitbucket.png HTTP/1.1" 404 3476
+[2020-06-29 17:58:10,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/slack.png HTTP/1.1" 404 3464
+[2020-06-29 17:58:10,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/mail_chimp.png HTTP/1.1" 404 3479
+[2020-06-29 17:58:10,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/dropbox.png HTTP/1.1" 404 3470
+[2020-06-29 17:58:15,319] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/create/ HTTP/1.1" 302 0
+[2020-06-29 17:58:15,337] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 17:58:15,379] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 17:58:15,381] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 17:58:15,382] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 17:58:15,385] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 17:58:15,388] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 17:58:15,388] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 17:58:15,390] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 17:58:15,390] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 17:58:15,391] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 17:58:15,391] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 17:58:15,392] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 17:58:15,392] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 17:58:18,627] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/go/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 108, in team_go
+    return JsonResponse.AbnormalCheck('要先加入团队才能进入撒~~~', data={'status': status})
+AttributeError: type object 'JsonResponse' has no attribute 'AbnormalCheck'
+[2020-06-29 17:58:18,629] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/go/ HTTP/1.1" 500 18434
+[2020-06-29 17:58:20,902] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/go/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 108, in team_go
+    return JsonResponse.AbnormalCheck('要先加入团队才能进入撒~~~', data={'status': status})
+AttributeError: type object 'JsonResponse' has no attribute 'AbnormalCheck'
+[2020-06-29 17:58:20,904] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/go/ HTTP/1.1" 500 18434
+[2020-06-29 17:58:22,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/edit/1/ HTTP/1.1" 200 18794
+[2020-06-29 17:58:26,302] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:26,304] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:27,557] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:27,558] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:27,884] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:27,886] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,079] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,080] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,254] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,255] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,431] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,432] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,574] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,576] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,711] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,712] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:28,853] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:28,854] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:58:30,625] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js.map HTTP/1.1" 404 1776
+[2020-06-29 17:58:30,625] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js.map HTTP/1.1" 404 1794
+[2020-06-29 17:58:30,642] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css.map HTTP/1.1" 404 1785
+[2020-06-29 17:58:30,645] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1773
+[2020-06-29 17:58:30,646] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css.map HTTP/1.1" 404 1875
+[2020-06-29 17:58:33,287] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 223, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 17:58:33,289] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 17:59:09,749] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view team.views.team_join didn't return an HttpResponse object. It returned None instead.
+[2020-06-29 17:59:09,752] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /team/join/ HTTP/1.1" 500 65633
+[2020-06-29 18:01:16,326] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\team\views.py changed, reloading.
+[2020-06-29 18:01:17,370] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 18:01:26,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 18:01:26,332] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 18:01:26,335] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 18:01:26,337] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 18:01:26,340] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 18:01:26,348] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 18:01:26,350] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 18:01:26,352] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 18:01:26,353] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 18:01:26,365] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 18:01:26,368] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 18:01:26,369] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 18:01:26,370] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 18:01:26,429] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1773
+[2020-06-29 18:01:26,431] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css.map HTTP/1.1" 404 1875
+[2020-06-29 18:01:26,431] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css.map HTTP/1.1" 404 1785
+[2020-06-29 18:01:26,646] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js.map HTTP/1.1" 404 1776
+[2020-06-29 18:01:26,646] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js.map HTTP/1.1" 404 1794
+[2020-06-29 18:01:27,762] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 225, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 18:01:27,764] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 18:02:28,878] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 18:02:32,478] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 18:02:32,533] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 18:02:32,537] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 18:02:32,538] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 18:02:32,539] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 18:02:32,545] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 18:02:32,547] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 18:02:32,548] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 18:02:32,549] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 18:02:32,567] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 18:02:32,571] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 18:02:32,572] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 18:02:32,572] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 18:02:32,639] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js.map HTTP/1.1" 404 1794
+[2020-06-29 18:02:32,639] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js.map HTTP/1.1" 404 1776
+[2020-06-29 18:02:32,674] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1773
+[2020-06-29 18:02:32,832] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css.map HTTP/1.1" 404 1785
+[2020-06-29 18:02:32,833] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css.map HTTP/1.1" 404 1875
+[2020-06-29 18:02:34,705] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /team/join/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 225, in team_join
+    return JsonResponse.SkipLink()
+AttributeError: type object 'JsonResponse' has no attribute 'SkipLink'
+[2020-06-29 18:02:34,707] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /team/join/ HTTP/1.1" 500 18366
+[2020-06-29 18:03:15,447] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\team\views.py changed, reloading.
+[2020-06-29 18:03:16,591] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 18:03:33,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/join/ HTTP/1.1" 200 51
+[2020-06-29 18:03:33,680] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/apply/1/ HTTP/1.1" 200 13733
+[2020-06-29 18:03:33,735] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/github.png
+[2020-06-29 18:03:33,737] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/github.png HTTP/1.1" 404 3470
+[2020-06-29 18:03:33,744] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/dribbble.png
+[2020-06-29 18:03:33,745] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/dribbble.png HTTP/1.1" 404 3476
+[2020-06-29 18:03:33,751] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/dropbox.png
+[2020-06-29 18:03:33,753] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/dropbox.png HTTP/1.1" 404 3473
+[2020-06-29 18:03:33,761] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/bitbucket.png
+[2020-06-29 18:03:33,762] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/bitbucket.png HTTP/1.1" 404 3479
+[2020-06-29 18:03:33,770] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/mail_chimp.png
+[2020-06-29 18:03:33,772] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/mail_chimp.png HTTP/1.1" 404 3482
+[2020-06-29 18:03:33,778] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/slack.png
+[2020-06-29 18:03:33,779] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/slack.png HTTP/1.1" 404 3467
+[2020-06-29 18:03:33,814] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js.map HTTP/1.1" 404 1776
+[2020-06-29 18:03:33,882] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js.map HTTP/1.1" 404 1794
+[2020-06-29 18:03:34,032] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1773
+[2020-06-29 18:03:34,039] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css.map HTTP/1.1" 404 1785
+[2020-06-29 18:03:34,040] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css.map HTTP/1.1" 404 1875
+[2020-06-29 18:03:36,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 18:03:36,079] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/mail_chimp.png
+[2020-06-29 18:03:36,081] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/apply/1/assets/images/slack.png
+[2020-06-29 18:03:36,081] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/mail_chimp.png HTTP/1.1" 404 3482
+[2020-06-29 18:03:36,082] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/apply/1/assets/images/slack.png HTTP/1.1" 404 3467
+[2020-06-29 18:03:36,093] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 18:03:36,095] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 18:03:36,096] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 18:03:36,096] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 18:03:36,106] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 18:03:36,108] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 18:03:36,108] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 18:03:36,109] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 18:03:36,122] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 18:03:36,124] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 18:03:36,125] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 18:03:36,127] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 18:03:36,145] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js.map HTTP/1.1" 404 1776
+[2020-06-29 18:03:36,147] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js.map HTTP/1.1" 404 1794
+[2020-06-29 18:03:36,383] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1773
+[2020-06-29 18:03:36,384] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css.map HTTP/1.1" 404 1785
+[2020-06-29 18:03:36,387] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css.map HTTP/1.1" 404 1875
+[2020-06-29 18:03:38,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/go/ HTTP/1.1" 200 87
+[2020-06-29 18:03:38,087] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:03:38,088] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17764
+[2020-06-29 18:05:16,008] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\team\views.py changed, reloading.
+[2020-06-29 18:05:17,012] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 18:05:20,562] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:05:20,562] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17608
+[2020-06-29 18:05:25,276] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:05:25,277] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17608
+[2020-06-29 18:05:26,105] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:05:26,105] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17608
+[2020-06-29 18:05:26,656] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:05:26,657] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17608
+[2020-06-29 18:05:28,633] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 18:05:28,660] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 18:05:28,663] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 18:05:28,664] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 18:05:28,664] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 18:05:28,667] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 18:05:28,672] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 18:05:28,674] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 18:05:28,676] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 18:05:28,676] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 18:05:28,677] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 18:05:28,705] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 18:05:28,707] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 18:05:32,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/edit/1/ HTTP/1.1" 200 18794
+[2020-06-29 18:05:32,059] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/github.png
+[2020-06-29 18:05:32,060] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/github.png HTTP/1.1" 404 3467
+[2020-06-29 18:05:32,073] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/mail_chimp.png
+[2020-06-29 18:05:32,075] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/bitbucket.png
+[2020-06-29 18:05:32,077] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/dribbble.png
+[2020-06-29 18:05:32,079] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/dropbox.png
+[2020-06-29 18:05:32,080] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/edit/1/assets/images/slack.png
+[2020-06-29 18:05:32,081] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/mail_chimp.png HTTP/1.1" 404 3479
+[2020-06-29 18:05:32,081] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/bitbucket.png HTTP/1.1" 404 3476
+[2020-06-29 18:05:32,081] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/dribbble.png HTTP/1.1" 404 3473
+[2020-06-29 18:05:32,082] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/dropbox.png HTTP/1.1" 404 3470
+[2020-06-29 18:05:32,082] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/edit/1/assets/images/slack.png HTTP/1.1" 404 3464
+[2020-06-29 18:05:42,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 26085
+[2020-06-29 18:05:42,622] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-06-29 18:05:42,623] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3446
+[2020-06-29 18:05:42,625] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-06-29 18:05:42,627] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-06-29 18:05:42,629] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-06-29 18:05:42,630] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-06-29 18:05:42,631] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3458
+[2020-06-29 18:05:42,631] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3455
+[2020-06-29 18:05:42,632] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-06-29 18:05:42,633] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3449
+[2020-06-29 18:05:42,633] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3452
+[2020-06-29 18:05:42,637] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3443
+[2020-06-29 18:05:43,741] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/go/ HTTP/1.1" 200 87
+[2020-06-29 18:05:43,755] [log.py:228] [log:log_response] [WARNING]- Not Found: /base/index/1/
+[2020-06-29 18:05:43,756] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /base/index/1/ HTTP/1.1" 404 17608
+[2020-06-29 18:06:09,633] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- H:\EasyTest_UI\base\urls.py changed, reloading.
+[2020-06-29 18:06:10,670] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-29 18:06:13,355] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2020-06-29 18:06:13,363] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 153710
+[2020-06-29 18:07:42,966] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2020-06-29 18:07:42,970] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155799
+[2020-06-29 18:07:45,282] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2020-06-29 18:07:45,284] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155799
+[2020-06-29 18:07:46,139] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2020-06-29 18:07:46,142] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155799
+[2020-06-29 18:07:59,097] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:07:59,100] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:00,309] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:00,311] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:00,767] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:00,770] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:01,048] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:01,051] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:01,381] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:01,383] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:01,650] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:01,654] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:01,948] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:01,953] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:02,231] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:02,233] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:02,699] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'project' not found. 'project' is not a valid view function or pattern name.
+[2020-06-29 18:08:02,705] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155319
+[2020-06-29 18:08:46,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/join/ HTTP/1.1" 200 13732
+[2020-06-29 18:08:47,798] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/github.png
+[2020-06-29 18:08:47,800] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/dribbble.png
+[2020-06-29 18:08:47,800] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/github.png HTTP/1.1" 404 3461
+[2020-06-29 18:08:47,800] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/dribbble.png HTTP/1.1" 404 3467
+[2020-06-29 18:08:47,810] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/bitbucket.png
+[2020-06-29 18:08:47,812] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/dropbox.png
+[2020-06-29 18:08:47,812] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/dropbox.png HTTP/1.1" 404 3464
+[2020-06-29 18:08:47,813] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/bitbucket.png HTTP/1.1" 404 3470
+[2020-06-29 18:08:47,823] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/slack.png
+[2020-06-29 18:08:47,824] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/join/assets/images/mail_chimp.png
+[2020-06-29 18:08:47,825] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/slack.png HTTP/1.1" 404 3458
+[2020-06-29 18:08:47,826] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/join/assets/images/mail_chimp.png HTTP/1.1" 404 3473
+[2020-06-29 18:08:50,340] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/index/1/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "H:\EasyTest_UI\team\views.py", line 230, in index
+    return render(request, "page/首页.html", {'tid': tid})
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\Administrator\.easylog\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'page' not found. 'page' is not a valid view function or pattern name.
+[2020-06-29 18:08:50,343] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/index/1/ HTTP/1.1" 500 155297
+[2020-06-29 18:09:09,478] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 15802
+[2020-06-29 18:09:09,500] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:09,500] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 404 1737
+[2020-06-29 18:09:09,806] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/navbar.css HTTP/1.1" 404 1689
+[2020-06-29 18:09:09,807] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:09,808] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 404 1755
+[2020-06-29 18:09:09,812] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css HTTP/1.1" 404 1683
+[2020-06-29 18:09:09,815] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:09,816] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:10,118] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 404 1707
+[2020-06-29 18:09:10,119] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/logo.png HTTP/1.1" 404 1683
+[2020-06-29 18:09:10,121] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:10,123] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 404 1710
+[2020-06-29 18:09:10,136] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:10,150] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:10,424] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 404 1713
+[2020-06-29 18:09:10,430] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 404 1737
+[2020-06-29 18:09:10,432] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:10,432] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 404 1749
+[2020-06-29 18:09:10,443] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 404 1758
+[2020-06-29 18:09:10,455] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:10,730] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js HTTP/1.1" 404 1695
+[2020-06-29 18:09:10,736] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/particles.js HTTP/1.1" 404 1692
+[2020-06-29 18:09:10,740] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/app.js HTTP/1.1" 404 1674
+[2020-06-29 18:09:11,052] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/favicon.png HTTP/1.1" 404 1692
+[2020-06-29 18:09:13,239] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 15802
+[2020-06-29 18:09:13,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 404 1755
+[2020-06-29 18:09:13,533] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:13,566] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 404 1737
+[2020-06-29 18:09:13,566] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:13,566] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/navbar.css HTTP/1.1" 404 1689
+[2020-06-29 18:09:13,566] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css HTTP/1.1" 404 1683
+[2020-06-29 18:09:13,577] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:13,853] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/logo.png HTTP/1.1" 404 1683
+[2020-06-29 18:09:13,881] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:13,884] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 404 1707
+[2020-06-29 18:09:13,889] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 404 1713
+[2020-06-29 18:09:13,890] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 404 1710
+[2020-06-29 18:09:13,892] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:14,158] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:14,187] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 404 1713
+[2020-06-29 18:09:14,191] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 404 1737
+[2020-06-29 18:09:14,199] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:14,200] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 404 1749
+[2020-06-29 18:09:14,202] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 404 1758
+[2020-06-29 18:09:14,463] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:14,493] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js HTTP/1.1" 404 1695
+[2020-06-29 18:09:14,511] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/particles.js HTTP/1.1" 404 1692
+[2020-06-29 18:09:14,516] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/app.js HTTP/1.1" 404 1674
+[2020-06-29 18:09:19,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project HTTP/1.1" 200 29325
+[2020-06-29 18:09:19,197] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 404 1737
+[2020-06-29 18:09:19,198] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:19,419] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/navbar.css HTTP/1.1" 404 1689
+[2020-06-29 18:09:19,503] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 404 1755
+[2020-06-29 18:09:19,507] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 404 1710
+[2020-06-29 18:09:19,507] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css HTTP/1.1" 404 1683
+[2020-06-29 18:09:19,507] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:19,510] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:19,726] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/logo.png HTTP/1.1" 404 1683
+[2020-06-29 18:09:19,809] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 404 1707
+[2020-06-29 18:09:19,820] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 404 1710
+[2020-06-29 18:09:19,823] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 404 1713
+[2020-06-29 18:09:19,824] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 404 1737
+[2020-06-29 18:09:19,825] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:20,030] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:20,115] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 404 1713
+[2020-06-29 18:09:20,147] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 404 1737
+[2020-06-29 18:09:20,151] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 404 1704
+[2020-06-29 18:09:20,152] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 404 1749
+[2020-06-29 18:09:20,154] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 1785
+[2020-06-29 18:09:20,336] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 404 1791
+[2020-06-29 18:09:20,421] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 404 1758
+[2020-06-29 18:09:20,451] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 404 1707
+[2020-06-29 18:09:20,472] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 1785
+[2020-06-29 18:09:20,487] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 404 1791
+[2020-06-29 18:09:20,487] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 404 1767
+[2020-06-29 18:09:20,760] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/particles.js HTTP/1.1" 404 1692
+[2020-06-29 18:09:20,780] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/app.js HTTP/1.1" 404 1674

@@ -25,6 +25,7 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('logout/', views.logout, name='logout'),
     path('team/', views.TeamIndex.as_view(), name='team'),
+    path('', views.TeamIndex.as_view(), name='team'),
     path('team/go/', views.team_go, name='team_go'),
     path('team/create/', views.create_team, name='create_team'),
     path('team/join/', views.team_join, name='team_join'),

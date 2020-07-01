@@ -1,0 +1,4 @@
+[2020-07-01 19:26:27,710] [views.py:391] [views:change_password] [INFO]- 用户：lixiaofeng 修改密码为 123456
+[2020-07-01 19:27:00,087] [views.py:385] [views:change_password] [ERROR]- change password error：'字段不能为空！'
+[2020-07-01 19:27:12,891] [views.py:391] [views:change_password] [INFO]- 用户：lixiaofeng 修改密码为 123456
+[2020-07-01 19:30:18,737] [views.py:391] [views:change_password] [INFO]- 用户：lixiaofeng 修改密码为 123456

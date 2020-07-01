@@ -121,17 +121,25 @@
                     </li>
                     <li class="nav-item dropdown nav-user">
                         <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"><img src="{% static 'assets/images/userImg.jpeg' %}" alt=""
-                                                                           class="user-avatar-md rounded-circle"></a>
+                           aria-haspopup="true" aria-expanded="false"><img
+                                src="{% static 'assets/images/userImg.jpeg' %}" alt=""
+                                class="user-avatar-md rounded-circle"></a>
                         <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
                              aria-labelledby="navbarDropdownMenuLink2">
                             <div class="nav-user-info">
                                 <h5 class="mb-0 text-white nav-user-name">{{ user }}</h5>
                                 <span class="status"></span><span class="ml-2">好好说话！</span>
                             </div>
-                            <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
-                            <a class="dropdown-item" href="{% url 'logout' %}"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            {#                            <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>#}
+                            {#                            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>#}
+                            <a href="javascript:void(0)" onclick="changePassword()" class="dropdown-item"><i
+                                    class="fab fa-expeditedssl mr-2"></i> <span>修改密码</span></a>
+                            <a href="/admin/" class="dropdown-item"><i class="fas fa-bookmark mr-2"></i>
+                                <span>站点管理</span></a>
+                            <a href="https://www.cnblogs.com/changqing8023" target="_blank" class="dropdown-item"><i
+                                    class="fab fa-xbox mr-2"></i> <span>博客园地址</span></a>
+                            <a class="dropdown-item" href="{% url 'logout' %}"><i
+                                    class="fas fa-power-off mr-2"></i><span>退出</span></a>
                         </div>
                     </li>
                 </ul>
@@ -162,7 +170,34 @@
 <script src="{% static 'assets/vendor/charts/c3charts/d3-5.4.0.min.js' %}"></script>
 <script src="{% static 'assets/vendor/charts/c3charts/C3chartjs.js' %}"></script>
 <script src="{% static 'assets/libs/js/dashboard-ecommerce.js' %}"></script>
+<script type="application/javascript">
+    function changePassword() {
+        var new_password = prompt('新密码');
+        $.ajax({
+            type: "post",
+            url: "{% url 'base:change_password' %}",
+            data: {
+                "new_password": new_password,
+                "user": "{{ user }}"
+            },
+            success: function (data) {
+                if (new_password) {
+                    if (data.code == 200) {
+                        alert(data.message);
+                        window.location.replace("/login/");
+                    } else {
+                        alert(data.message)
+                    }
+                } else if (new_password == '') {
+                    alert('密码不能为空！')
+                } else {
+                    // 点击取消按钮
+                }
 
+            }
+        })
+    }
+</script>
 {% block js %}
 
 {% endblock %}

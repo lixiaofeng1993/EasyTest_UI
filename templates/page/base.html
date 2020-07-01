@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load static %}
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>EasyTest - UI 自动化测试平台</title>
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet"/>
+    <link href="{% static 'assets/js/morris/morris-0.4.3.min.css' %}" rel="stylesheet"/>
+    <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link href="{% static 'assets/css/custom-styles.css' %}" rel="stylesheet"/>
+    <link href="{% static 'assets/css/navbar.css' %}" rel="stylesheet"/>
+    <link href="{% static 'assets/css/main.css' %}" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'assets/img/favicon.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'assets/img/favicon.png' %}">
+    <style type="text/css">
+        body {
+            background-image: "{% static 'assets/img/bg.svg' %}";
+        }
+
+        #particles-js {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .form-inline .form-group {
+            display: inline-flex;
+        }
+
+        .form-control-custom {
+            margin-top: -3px;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        #nav .sidebar-collapse nav .nav li {
+            border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+        }
+
+        .active-menu {
+
+        }
+    </style>
+    {% block css %}
+
+    {% endblock %}
+</head>
+
+<body>
+<div id="wrapper">
+    <!-- 头部bar -->
+    <nav class="navbar navbar-default top-navbar" role="navigation" id="nav-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="brand">
+                <a href="/base/index/{{ tid }}/"><img src="{% static 'assets/img/logo.png' %}" alt="Klorofil Logo"
+                                                      class="img-responsive logo"></a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="navbar-btn">
+                <button type="button" class="btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></button>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown" onclick="select_ul()">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="img"><img
+                            src="{% static 'assets/img/comment_img.jpeg' %}"
+                            class="img-circle" alt="Avatar">
+                        <span>{{ user }}</span> <i class="icon-submenu fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{% url 'team' %}" target="_blank"><i
+                                class="fa fa-rouble"></i> <span>返回团队管理</span></a>
+                        </li>
+                        {#                        <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out"></i> <span>退出</span></a></li>#}
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 头部bar end -->
+    <!-- 左侧导航  -->
+    <div class="navbar-default navbar-side sidebar" role="navigation" id="nav"
+         style="overflow-y:auto; overflow-x:auto; width:11%; height:100%;">
+        <div class="sidebar-collapse sidebar-scroll">
+            <nav>
+                <ul class="nav" id="main-menu" style="margin-top: 15px">
+                    <li>
+                        <a href="/base/index/{{ tid }}/" class=""><i class="fa fa-dashboard"></i> 主页</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:project' %}" class=""><i class="fa fa-desktop"></i> 项目管理</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:page' %}" class=""><i class="fa fa-bar-chart"></i> 页面管理</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:element' %}" class=""><i class="fa  fa-fw fa-qrcode"></i> 页面元素</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'base:keyword' %}" class=""><i class="fa fa-fw fa-table"></i> 关键字库</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:testcase' %}" class=""><i class="fa fa-fw fa-edit"></i> 测试用例 </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:result' %}" class=""><i class="fa fa-fw fa-file"></i> 测试结果 </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:loginConfig' %}" class=""><i class="fa fa-fw fa-building"></i> 登录配置 </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'base:task' %}" class=""><i class="fa fa-fw fa-sitemap"></i> 任务管理 </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    <!-- 左侧导航  -->
+    <div class="main">
+        <div class="main-content">
+            <div class="container-fluid">
+                {% block body %}
+
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+</div>
+{% block alert %}
+
+{% endblock %}
+<script src="{% static 'assets/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/klorofil-common.js' %}"></script>
+<script>
+    $(document).ready(function () {
+        var a_name = $("a").text();
+        var page_name = $("span.this-page").text();
+        if (a_name) {
+            if (page_name) {
+
+                console.log(a_name, "==========>", page_name);
+                $("a:contains(" + page_name + ")").addClass("active-menu");
+            }
+        }
+    });
+
+    function select_ul() {
+        console.log(1);
+        $(".dropdown").attr("class", "dropdown open");
+        $("#img").attr("aria-expanded", "true");
+    }
+</script>
+{% block js %}
+
+{% endblock %}
+
+<div id="particles-js"></div>
+
+<script type="text/javascript" src="{% static 'assets/js/particles.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/js/app.js' %}"></script>
+</body>
+</html>

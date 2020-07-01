@@ -9,8 +9,11 @@
 from django.http import HttpResponse
 from django.core.serializers.json import json
 from django.db.models.base import ModelBase
-from django.contrib.auth.models import User
-import re
+from django.conf import settings
+from datetime import datetime
+import os, time, logging
+
+log = logging.getLogger('log')  # 初始化log
 
 
 class JsonResponse(HttpResponse):
@@ -57,6 +60,26 @@ class JsonResponse(HttpResponse):
         return JsonResponse(999, message, data)
 
 
+# 检查请求是否为Post请求
+def post(fn):
+    def request(*args, **kwargs):
+        if args[0].method == 'POST':
+            return fn(*args, **kwargs)
+        else:
+            return JsonResponse.MethodNotAllowed("请使用Post请求")
+
+    return request
+
+
+def get_request_body(request):
+    try:
+        content = request.body.decode()
+        content = json.loads(request.body.decode("utf-8")) if content else {}
+    except:
+        raise ValueError
+    return content
+
+
 def get_model(model, get=True, *args, **kwargs):
     if isinstance(model, ModelBase):
         if get:
@@ -68,26 +91,6 @@ def get_model(model, get=True, *args, **kwargs):
             return model.objects.filter(*args, **kwargs)
     else:
         raise TypeError("model 没有继承 django.db.models.base.ModelBase")
-
-
-def check_register(nick, email, password, confirm):
-    if email:
-        if not re.match('.+@.+\..+$', email):
-            return 'email格式错误！'
-    if nick == '' or password == '' or confirm == '':
-        return '字段不能为空！'
-    elif len(nick) > 50 or len(password) > 50 or len(email) > 50:
-        return '输入字段过长！<用户名、密码及邮箱必须小于50位.>'
-    elif 6 > len(nick) or 6 > len(password):
-        return '输入字段长度不够！<用户名、密码必须大于6位.>'
-    elif password != confirm:
-        return '两次输入的密码不一致！'
-    else:
-        try:
-            User.objects.get(username=nick)
-            return '注册用户已经存在！'
-        except User.DoesNotExist:
-            return 'ok'
 
 
 def pagination_data(paginator, page, is_paginated):
@@ -194,3 +197,46 @@ def pagination_data(paginator, page, is_paginated):
     }
 
     return data
+
+
+def remove_logs(path):
+    """
+    到期删除日志文件
+    :param path:
+    :return:
+    """
+    if os.path.isdir(path):
+        file_list = os.listdir(path)  # 返回目录下的文件list
+        now_time = datetime.now()
+        num = 0
+        for file in file_list:
+            file_path = os.path.join(path, file)
+            if os.path.isfile(file_path):
+                file_ctime = datetime(*time.localtime(os.path.getctime(file_path))[:6])
+                if (now_time - file_ctime).days > 6:
+                    try:
+                        os.remove(file_path)
+                        num += 1
+                        log.info('------删除文件------->>> {}'.format(file_path))
+                    except PermissionError as e:
+                        log.warning('删除文件失败：{}'.format(e))
+                        # if name not in file_path and "pie" in file_path:
+                        #     try:
+                        #         os.remove(file_path)
+                        #         num += 1
+                        #         log.info('------删除文件------->>> {}'.format(file_path))
+                        #     except PermissionError as e:
+                        #         log.warning('删除文件失败：{}'.format(e))
+            else:
+                log.info('文件夹跳过：{}'.format(file_path))
+        return num
+    else:
+        pic_path = os.path.join(settings.MEDIA_ROOT, path)
+        if os.path.isfile(pic_path):
+            try:
+                os.remove(pic_path)
+                log.info('------删除文件------->>> {}'.format(pic_path))
+            except PermissionError as e:
+                log.warning('删除文件失败：{}'.format(e))
+        else:
+            log.warning('不是文件或者文件不存在：{}'.format(pic_path))
