@@ -1888,3 +1888,1244 @@ base.models.Project.DoesNotExist: Project matching query does not exist.
 [2020-07-02 18:18:04,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
 [2020-07-02 18:18:04,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 301
 [2020-07-02 18:18:04,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:05:59,886] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:07:35,897] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:10:00,054] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:13:29,169] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:13:40,959] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 44406
+[2020-07-02 19:13:41,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/libs/css/style.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/circular-std/style.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,014] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/libs/css/team.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/fontawesome/css/fontawesome-all.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/morris-bundle/morris.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/c3charts/c3.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/flag-icon-css/flag-icon.min.css HTTP/1.1" 304 0
+[2020-07-02 19:13:41,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:13:41,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:13:41,074] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/slimscroll/jquery.slimscroll.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/jquery/jquery-3.3.1.min.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/libs/js/main-js.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/chartist-bundle/chartist.min.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/morris-bundle/raphael.min.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,090] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/sparkline/jquery.sparkline.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,094] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/morris-bundle/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,097] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/c3charts/c3.min.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/c3charts/C3chartjs.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/charts/c3charts/d3-5.4.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/libs/js/dashboard-ecommerce.js HTTP/1.1" 304 0
+[2020-07-02 19:13:41,131] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/dropbox.png
+[2020-07-02 19:13:41,132] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/github.png
+[2020-07-02 19:13:41,135] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/dribbble.png
+[2020-07-02 19:13:41,135] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/dropbox.png HTTP/1.1" 404 3547
+[2020-07-02 19:13:41,136] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/github.png HTTP/1.1" 404 3544
+[2020-07-02 19:13:41,138] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/dribbble.png HTTP/1.1" 404 3550
+[2020-07-02 19:13:41,161] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/bitbucket.png
+[2020-07-02 19:13:41,167] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/mail_chimp.png
+[2020-07-02 19:13:41,171] [log.py:228] [log:log_response] [WARNING]- Not Found: /assets/images/slack.png
+[2020-07-02 19:13:41,172] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/bitbucket.png HTTP/1.1" 404 3553
+[2020-07-02 19:13:41,173] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/mail_chimp.png HTTP/1.1" 404 3556
+[2020-07-02 19:13:41,178] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /assets/images/slack.png HTTP/1.1" 404 3541
+[2020-07-02 19:13:41,180] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/userImg.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:13:41,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/images/login_img.png HTTP/1.1" 304 0
+[2020-07-02 19:13:41,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/circular-std/CircularStd-Book.woff HTTP/1.1" 304 0
+[2020-07-02 19:13:41,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.html HTTP/1.1" 304 0
+[2020-07-02 19:13:41,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.html HTTP/1.1" 304 0
+[2020-07-02 19:13:41,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/circular-std/CircularStd-Medium.woff HTTP/1.1" 304 0
+[2020-07-02 19:13:41,235] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.html HTTP/1.1" 304 0
+[2020-07-02 19:13:41,492] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-02 19:13:41,494] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3505
+[2020-07-02 19:15:20,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2020-07-02 19:15:20,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/?next=/ HTTP/1.1" 200 3392
+[2020-07-02 19:15:22,676] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 3526
+[2020-07-02 19:15:24,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 2707
+[2020-07-02 19:15:38,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2818
+[2020-07-02 19:15:47,486] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2818
+[2020-07-02 19:17:08,082] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\public\helperPath.py changed, reloading.
+[2020-07-02 19:17:10,360] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:17:16,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2818
+[2020-07-02 19:17:29,567] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\public\helperPath.py changed, reloading.
+[2020-07-02 19:17:31,332] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:17:52,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2818
+[2020-07-02 19:18:00,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2818
+[2020-07-02 19:18:35,211] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\public\helperPath.py changed, reloading.
+[2020-07-02 19:18:37,278] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:19:06,972] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\team\views.py changed, reloading.
+[2020-07-02 19:19:08,769] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:19:09,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 2827
+[2020-07-02 19:19:17,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 302 0
+[2020-07-02 19:19:17,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 16792
+[2020-07-02 19:19:17,509] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-07-02 19:19:17,511] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-07-02 19:19:17,514] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-07-02 19:19:17,514] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3562
+[2020-07-02 19:19:17,515] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3559
+[2020-07-02 19:19:17,517] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3565
+[2020-07-02 19:19:17,534] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-07-02 19:19:17,536] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-07-02 19:19:17,541] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-07-02 19:19:17,541] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3568
+[2020-07-02 19:19:17,542] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3571
+[2020-07-02 19:19:17,543] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3556
+[2020-07-02 19:19:25,556] [views.py:385] [views:change_password] [ERROR]- change password error：'字段不能为空！'
+[2020-07-02 19:19:25,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/admin/change_password/ HTTP/1.1" 200 65
+[2020-07-02 19:19:28,068] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2020-07-02 19:19:28,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 3392
+[2020-07-02 19:19:29,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-02 19:19:29,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 16792
+[2020-07-02 19:19:29,602] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-07-02 19:19:29,607] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-07-02 19:19:29,610] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3559
+[2020-07-02 19:19:29,614] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3565
+[2020-07-02 19:19:29,620] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-07-02 19:19:29,626] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3562
+[2020-07-02 19:19:29,636] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-07-02 19:19:29,640] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-07-02 19:19:29,640] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3568
+[2020-07-02 19:19:29,641] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3571
+[2020-07-02 19:19:29,645] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-07-02 19:19:29,647] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3556
+[2020-07-02 19:19:31,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/create/ HTTP/1.1" 200 14633
+[2020-07-02 19:19:31,314] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/github.png
+[2020-07-02 19:19:31,317] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/dribbble.png
+[2020-07-02 19:19:31,317] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/github.png HTTP/1.1" 404 3580
+[2020-07-02 19:19:31,318] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/dribbble.png HTTP/1.1" 404 3586
+[2020-07-02 19:19:31,346] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/dropbox.png
+[2020-07-02 19:19:31,350] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/slack.png
+[2020-07-02 19:19:31,351] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/dropbox.png HTTP/1.1" 404 3583
+[2020-07-02 19:19:31,358] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/mail_chimp.png
+[2020-07-02 19:19:31,361] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/create/assets/images/bitbucket.png
+[2020-07-02 19:19:31,362] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/slack.png HTTP/1.1" 404 3577
+[2020-07-02 19:19:31,362] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/mail_chimp.png HTTP/1.1" 404 3592
+[2020-07-02 19:19:31,363] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/create/assets/images/bitbucket.png HTTP/1.1" 404 3589
+[2020-07-02 19:19:46,080] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/create/ HTTP/1.1" 302 0
+[2020-07-02 19:19:46,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /team/ HTTP/1.1" 200 22115
+[2020-07-02 19:19:46,419] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/github.png
+[2020-07-02 19:19:46,422] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dribbble.png
+[2020-07-02 19:19:46,422] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/github.png HTTP/1.1" 404 3559
+[2020-07-02 19:19:46,423] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dribbble.png HTTP/1.1" 404 3565
+[2020-07-02 19:19:46,458] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/dropbox.png
+[2020-07-02 19:19:46,461] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/mail_chimp.png
+[2020-07-02 19:19:46,463] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/bitbucket.png
+[2020-07-02 19:19:46,465] [log.py:228] [log:log_response] [WARNING]- Not Found: /team/assets/images/slack.png
+[2020-07-02 19:19:46,466] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/dropbox.png HTTP/1.1" 404 3562
+[2020-07-02 19:19:46,466] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/mail_chimp.png HTTP/1.1" 404 3571
+[2020-07-02 19:19:46,466] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/bitbucket.png HTTP/1.1" 404 3568
+[2020-07-02 19:19:46,467] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /team/assets/images/slack.png HTTP/1.1" 404 3556
+[2020-07-02 19:19:49,382] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /team/go/ HTTP/1.1" 200 87
+[2020-07-02 19:19:49,424] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 19:19:49,447] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 200 443
+[2020-07-02 19:19:49,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 200 929
+[2020-07-02 19:19:49,450] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31004
+[2020-07-02 19:19:49,450] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 200 9137
+[2020-07-02 19:19:49,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 121205
+[2020-07-02 19:19:49,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 2849
+[2020-07-02 19:19:49,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 200 50854
+[2020-07-02 19:19:49,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 200 23037
+[2020-07-02 19:19:49,486] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1431
+[2020-07-02 19:19:49,486] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 200 5723
+[2020-07-02 19:19:49,488] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 200 85582
+[2020-07-02 19:19:49,489] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 71457
+[2020-07-02 19:19:49,498] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[2020-07-02 19:19:49,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90656
+[2020-07-02 19:19:49,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 200 69117
+[2020-07-02 19:19:49,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 200 9610
+[2020-07-02 19:19:49,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 200 5928
+[2020-07-02 19:19:49,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 200 423645
+[2020-07-02 19:19:49,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/highcharts.js HTTP/1.1" 200 248286
+[2020-07-02 19:19:49,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 200 44549
+[2020-07-02 19:19:49,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 2951
+[2020-07-02 19:19:49,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[2020-07-02 19:19:49,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/projectSummary HTTP/1.1" 200 42
+[2020-07-02 19:19:49,644] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/barChar HTTP/1.1" 200 199
+[2020-07-02 19:19:49,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 19:19:49,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 19:20:16,592] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project HTTP/1.1" 200 28086
+[2020-07-02 19:20:16,624] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 200 39213
+[2020-07-02 19:20:16,624] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 200 829
+[2020-07-02 19:20:16,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 200 465720
+[2020-07-02 19:20:16,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2020-07-02 19:20:16,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:20:22,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project? HTTP/1.1" 200 28086
+[2020-07-02 19:20:22,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:20:28,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project/create HTTP/1.1" 200 44
+[2020-07-02 19:20:29,503] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 226
+[2020-07-02 19:20:31,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project/1 HTTP/1.1" 200 34882
+[2020-07-02 19:20:31,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/environment?p=1 HTTP/1.1" 200 72
+[2020-07-02 19:20:51,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/environment/create HTTP/1.1" 200 44
+[2020-07-02 19:20:52,906] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/environment?p=1 HTTP/1.1" 200 175
+[2020-07-02 19:20:54,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/page HTTP/1.1" 200 34793
+[2020-07-02 19:20:54,343] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 65
+[2020-07-02 19:20:54,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:21:03,322] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page/create HTTP/1.1" 200 44
+[2020-07-02 19:21:04,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 19:21:07,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/element?projectId=undefined&&pageId=1 HTTP/1.1" 200 43572
+[2020-07-02 19:21:07,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:21:07,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:21:23,735] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 19:21:29,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element/create HTTP/1.1" 200 44
+[2020-07-02 19:21:30,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 262
+[2020-07-02 19:21:35,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element/copy/1 HTTP/1.1" 200 138
+[2020-07-02 19:21:35,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element/create HTTP/1.1" 200 44
+[2020-07-02 19:21:36,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 19:21:38,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
+[2020-07-02 19:21:38,699] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:21:38,700] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:21:42,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/element HTTP/1.1" 200 43572
+[2020-07-02 19:21:42,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:21:42,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 19:21:47,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 271
+[2020-07-02 19:21:48,894] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
+[2020-07-02 19:21:48,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:21:48,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:21:50,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword/create HTTP/1.1" 200 46675
+[2020-07-02 19:21:50,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:22:20,125] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword/create HTTP/1.1" 200 44
+[2020-07-02 19:22:21,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
+[2020-07-02 19:22:21,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:21,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:22:30,530] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword/create HTTP/1.1" 200 46675
+[2020-07-02 19:22:30,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 19:22:30,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:22:30,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:22:30,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,609] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,617] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,617] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 19:22:30,627] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[2020-07-02 19:22:30,691] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:22:31,834] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
+[2020-07-02 19:22:31,908] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:22:31,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:33,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:34,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:34,274] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:36,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:22:41,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:22:45,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:22:49,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26434
+[2020-07-02 19:22:50,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:22:50,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:22:53,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:22:56,936] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:22:56,940] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:23:01,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:27:29,809] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:27:29,851] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,872] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 19:27:29,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:27:29,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:27:29,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,953] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,954] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,965] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[2020-07-02 19:27:29,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 19:27:29,985] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2020-07-02 19:27:29,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 19:27:30,134] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:27:30,151] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:27:30,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:27:30,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:27:31,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 19:27:34,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:27:34,420] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:27:34,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:27:34,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:27:34,593] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:27:34,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 19:27:38,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:27:58,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword/create HTTP/1.1" 200 46675
+[2020-07-02 19:27:58,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:27:58,381] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:27:58,389] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:27:59,333] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:27:59,418] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:27:59,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:27:59,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:27:59,651] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:28:05,171] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:28:05,828] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:28:06,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:28:07,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:28:13,892] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:32:57,441] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:35:21,085] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:35:23,833] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:35:26,912] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:36:09,177] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:36:12,278] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:36:15,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:36:36,718] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:36:39,552] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:36:42,189] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:37:03,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:37:03,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,158] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 19:37:03,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:37:03,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:37:03,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,203] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,218] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,232] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,235] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,238] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,243] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 19:37:03,264] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:37:03,372] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:37:03,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:37:03,386] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:37:06,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 215
+[2020-07-02 19:39:10,820] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:39:12,808] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:39:17,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:39:21,681] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:39:30,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:39:30,494] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:39:35,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33670
+[2020-07-02 19:39:35,978] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:39:35,979] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:39:35,987] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/testcase
+[2020-07-02 19:39:35,988] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/testcase?p=1 HTTP/1.1" 404 3522
+[2020-07-02 19:39:35,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2020-07-02 19:39:37,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:39:37,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:39:37,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:40:31,979] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:40:34,116] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:47:14,733] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:47:17,319] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:47:54,808] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:47:54,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,846] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,847] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 19:47:54,850] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:47:54,850] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:47:54,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,881] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,886] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,891] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,900] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,901] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 19:47:54,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:47:54,960] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:51:07,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:51:08,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:08,039] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:51:08,312] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:51:08,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:51:08,395] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:09,397] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:51:09,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:09,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 68
+[2020-07-02 19:51:10,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/create HTTP/1.1" 200 65291
+[2020-07-02 19:51:10,716] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:14,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:51:14,733] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 19:51:14,733] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 19:51:14,737] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 60
+[2020-07-02 19:51:21,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 19:51:27,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword/1 HTTP/1.1" 200 340
+[2020-07-02 19:51:35,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/create HTTP/1.1" 200 44
+[2020-07-02 19:51:36,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:51:36,921] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:36,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:51:39,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/environment?p=1 HTTP/1.1" 200 72
+[2020-07-02 19:51:39,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/browser HTTP/1.1" 200 56
+[2020-07-02 19:51:44,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/result HTTP/1.1" 200 31128
+[2020-07-02 19:51:44,625] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/result
+[2020-07-02 19:51:44,628] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:51:44,628] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/result?p=1 HTTP/1.1" 404 3516
+[2020-07-02 19:51:44,629] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:51:45,457] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:51:45,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:45,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:51:46,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/result HTTP/1.1" 200 31128
+[2020-07-02 19:51:46,224] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/result
+[2020-07-02 19:51:46,226] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:51:46,227] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/result?p=1 HTTP/1.1" 404 3516
+[2020-07-02 19:51:46,232] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:51:48,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/loginConfig HTTP/1.1" 200 40560
+[2020-07-02 19:51:48,184] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:51:48,187] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/login
+[2020-07-02 19:51:48,188] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:51:48,189] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/login?p=1 HTTP/1.1" 404 3513
+[2020-07-02 19:51:48,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/result HTTP/1.1" 200 31128
+[2020-07-02 19:51:48,950] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:51:48,950] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:51:48,953] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/result
+[2020-07-02 19:51:48,954] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/result?p=1 HTTP/1.1" 404 3516
+[2020-07-02 19:51:49,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:51:49,482] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:51:49,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:56:09,129] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 19:56:11,354] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:56:13,206] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:56:13,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,245] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 19:56:13,248] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 19:56:13,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 19:56:13,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,286] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,296] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,308] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,313] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,315] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 19:56:13,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2020-07-02 19:56:13,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[2020-07-02 19:56:13,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:56:13,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:14,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:56:14,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:56:14,811] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:15,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 19:56:15,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:15,943] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:56:16,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 19:56:16,685] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/highcharts.js HTTP/1.1" 200 248286
+[2020-07-02 19:56:16,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 19:56:17,164] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 19:56:17,170] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 19:56:17,179] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 19:56:17,183] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 19:56:17,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:56:17,895] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:17,895] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:56:18,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/result HTTP/1.1" 200 31128
+[2020-07-02 19:56:18,619] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 19:56:18,620] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 19:56:18,622] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/result
+[2020-07-02 19:56:18,623] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/result?p=1 HTTP/1.1" 404 3516
+[2020-07-02 19:56:19,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 19:56:19,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:19,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 19:56:25,487] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75864
+[2020-07-02 19:56:25,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 602
+[2020-07-02 19:56:25,625] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 19:56:25,634] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 19:56:25,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 19:56:25,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 66
+[2020-07-02 19:56:25,656] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 19:56:28,577] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/testcase/edit/1
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 172, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\mixins.py", line 13, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'project'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\public\util.py", line 67, in request
+    return fn(*args, **kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 812, in edit
+    tc.clean()
+  File "E:\EasyTest_UI\base\models.py", line 226, in clean
+    projectId = self.project.id if self.project.id else 0
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 186, in __get__
+    rel_obj = self.get_object(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 153, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 417, in get
+    self.model._meta.object_name
+base.models.Project.DoesNotExist: Project matching query does not exist.
+[2020-07-02 19:56:28,585] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 500 20661
+[2020-07-02 19:56:30,477] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/testcase/edit/1
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 172, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\mixins.py", line 13, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'project'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\public\util.py", line 67, in request
+    return fn(*args, **kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 812, in edit
+    tc.clean()
+  File "E:\EasyTest_UI\base\models.py", line 226, in clean
+    projectId = self.project.id if self.project.id else 0
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 186, in __get__
+    rel_obj = self.get_object(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 153, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 417, in get
+    self.model._meta.object_name
+base.models.Project.DoesNotExist: Project matching query does not exist.
+[2020-07-02 19:56:30,481] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 500 20661
+[2020-07-02 19:56:32,563] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 19:56:32,567] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 19:56:37,502] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/testcase/edit/1
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 172, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\mixins.py", line 13, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'project'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\public\util.py", line 67, in request
+    return fn(*args, **kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 812, in edit
+    tc.clean()
+  File "E:\EasyTest_UI\base\models.py", line 226, in clean
+    projectId = self.project.id if self.project.id else 0
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 186, in __get__
+    rel_obj = self.get_object(instance)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\fields\related_descriptors.py", line 153, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 417, in get
+    self.model._meta.object_name
+base.models.Project.DoesNotExist: Project matching query does not exist.
+[2020-07-02 19:56:37,506] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 500 20661
+[2020-07-02 19:57:59,819] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\models.py changed, reloading.
+[2020-07-02 19:58:02,363] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 19:58:05,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 59
+[2020-07-02 19:58:21,545] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/api/v1/testcase/edit/1 HTTP/1.1" 200 61
+[2020-07-02 20:00:12,781] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 59
+[2020-07-02 20:00:20,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75914
+[2020-07-02 20:00:20,676] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:00:20,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 602
+[2020-07-02 20:00:20,796] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:00:21,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:00:21,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 20:00:21,063] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 20:00:21,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 66
+[2020-07-02 20:00:21,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 20:00:21,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 20:00:23,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 59
+[2020-07-02 20:01:11,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75964
+[2020-07-02 20:01:11,511] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:11,513] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:11,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 602
+[2020-07-02 20:01:11,938] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 20:01:11,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:11,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 20:01:11,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 20:01:12,017] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 66
+[2020-07-02 20:01:12,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 20:01:46,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75962
+[2020-07-02 20:01:46,506] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:46,589] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:46,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 602
+[2020-07-02 20:01:46,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 20:01:46,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:46,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 20:01:46,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 20:01:47,000] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 60
+[2020-07-02 20:01:47,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 20:01:48,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 44
+[2020-07-02 20:01:49,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 20:01:49,328] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:49,330] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:49,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 489
+[2020-07-02 20:01:49,392] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:51,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75962
+[2020-07-02 20:01:51,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 602
+[2020-07-02 20:01:51,230] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:51,230] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:51,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:51,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 20:01:51,265] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 60
+[2020-07-02 20:01:51,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 20:01:51,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 20:01:53,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 44
+[2020-07-02 20:01:54,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 20:01:55,031] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:55,032] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:55,096] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:55,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 20:01:59,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase/1 HTTP/1.1" 200 75962
+[2020-07-02 20:01:59,441] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 20:01:59,441] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 20:01:59,491] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/1 HTTP/1.1" 200 606
+[2020-07-02 20:01:59,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:01:59,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 368
+[2020-07-02 20:01:59,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 20:01:59,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/login?p=1 HTTP/1.1" 200 60
+[2020-07-02 20:01:59,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 20:05:52,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase/edit/1 HTTP/1.1" 200 44
+[2020-07-02 20:05:53,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 20:05:53,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,937] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,938] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,943] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,944] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 20:05:53,947] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 20:05:53,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 20:05:53,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,983] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 20:05:53,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,008] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,011] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 20:05:54,084] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 20:05:54,085] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:04:09,667] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 22:04:09,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/navbar.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/custom-styles.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/main.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[2020-07-02 22:04:09,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+[2020-07-02 22:04:09,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/comment_img.jpeg HTTP/1.1" 304 0
+[2020-07-02 22:04:09,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/jquery/jquery.min.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/klorofil-common.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,769] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,770] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/morris/morris.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,782] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[2020-07-02 22:04:09,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/highcharts.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/particles.js HTTP/1.1" 304 0
+[2020-07-02 22:04:09,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+[2020-07-02 22:04:10,014] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:04:10,351] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:04:10,355] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:04:10,364] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:04:10,367] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:04:12,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 22:04:12,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:04:12,185] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:04:12,198] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:04:12,201] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:04:12,205] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:04:13,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project HTTP/1.1" 200 28086
+[2020-07-02 22:04:13,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0
+[2020-07-02 22:04:13,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js HTTP/1.1" 304 0
+[2020-07-02 22:04:13,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/datetimepicker/moment-with-locales(1).js HTTP/1.1" 304 0
+[2020-07-02 22:04:13,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2020-07-02 22:04:13,252] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:04:13,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 22:04:14,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:04:14,058] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:04:14,068] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:04:14,083] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:04:14,088] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:04:14,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project HTTP/1.1" 200 28086
+[2020-07-02 22:04:15,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:04:15,832] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/page HTTP/1.1" 200 34793
+[2020-07-02 22:04:15,995] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 22:04:15,995] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:04:16,670] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/element HTTP/1.1" 200 43572
+[2020-07-02 22:04:16,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:04:16,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 22:04:17,397] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 22:04:17,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:04:17,536] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:04:17,544] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:04:17,553] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:04:17,556] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:04:19,645] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 22:04:19,721] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:04:19,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 12091
+[2020-07-02 22:04:27,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14546
+[2020-07-02 22:04:27,266] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:04:27,276] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:04:27,286] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:04:27,287] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:04:27,290] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:04:29,362] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js.map HTTP/1.1" 404 1707
+[2020-07-02 22:04:29,478] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 22:04:29,482] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 22:07:16,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14600
+[2020-07-02 22:07:17,069] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 22:07:17,069] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 22:07:17,214] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:07:17,220] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:07:17,265] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/barChar
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1306, in bar_char
+    all_result = Result.objects.filter(projectId=p.id)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, browsers, checkText, checkType, checkValue, createTime, environments, id, parameter, project, project_id, selectText, splitresult, status, steps, taskId, testcase, testcase_id, title
+[2020-07-02 22:07:17,270] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/barChar HTTP/1.1" 500 21007
+[2020-07-02 22:07:17,317] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:07:17,322] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 22:07:17,333] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js.map HTTP/1.1" 404 1707
+[2020-07-02 22:07:33,010] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:07:33,013] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /base/api/v1/projectSummary HTTP/1.1" 500 114972
+[2020-07-02 22:08:52,973] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 22:08:55,743] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 22:09:00,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14600
+[2020-07-02 22:09:00,281] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 22:09:00,282] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 22:09:00,701] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/barChar HTTP/1.1" 200 217
+[2020-07-02 22:09:00,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 22:09:00,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:09:00,759] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js.map HTTP/1.1" 404 1707
+[2020-07-02 22:09:01,087] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /base/api/v1/projectSummary
+Traceback (most recent call last):
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\EasyTest_UI\base\views.py", line 1284, in index
+    info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\18701\.virtualenvs\.easylog\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'projectId' into field. Choices are: beforeLogin, checkText, checkType, checkValue, createTime, id, level, parameter, project, project_id, remark, result, selectText, steps, title
+[2020-07-02 22:09:01,095] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /base/api/v1/projectSummary HTTP/1.1" 500 20942
+[2020-07-02 22:09:49,754] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\base\views.py changed, reloading.
+[2020-07-02 22:09:51,968] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 22:09:56,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/index/1/ HTTP/1.1" 200 14600
+[2020-07-02 22:09:56,533] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1722
+[2020-07-02 22:09:56,534] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/css/main.css.map HTTP/1.1" 404 1695
+[2020-07-02 22:09:56,644] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/projectSummary HTTP/1.1" 200 173
+[2020-07-02 22:09:56,672] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/barChar HTTP/1.1" 200 217
+[2020-07-02 22:09:56,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/lineChar HTTP/1.1" 200 260
+[2020-07-02 22:09:56,774] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/assets/js/highcharts.js.map HTTP/1.1" 404 1707
+[2020-07-02 22:09:57,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.png HTTP/1.1" 200 730
+[2020-07-02 22:10:21,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/project HTTP/1.1" 200 28086
+[2020-07-02 22:10:21,393] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:22,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/page HTTP/1.1" 200 34793
+[2020-07-02 22:10:22,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/page?p=1 HTTP/1.1" 200 211
+[2020-07-02 22:10:22,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:22,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/element HTTP/1.1" 200 43572
+[2020-07-02 22:10:23,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:23,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/element?p=1 HTTP/1.1" 200 467
+[2020-07-02 22:10:25,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 22:10:25,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:25,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 12091
+[2020-07-02 22:10:28,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 22:10:28,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:10:28,548] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:29,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 22:10:29,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 12091
+[2020-07-02 22:10:29,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:30,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 22:10:30,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:30,499] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:10:30,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 22:10:31,060] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:31,060] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 12091
+[2020-07-02 22:10:31,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 22:10:31,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:10:31,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:32,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/keyword HTTP/1.1" 200 26485
+[2020-07-02 22:10:32,640] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:32,640] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/keyword?p=1 HTTP/1.1" 200 12091
+[2020-07-02 22:10:33,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 22:10:33,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:33,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:10:35,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/result HTTP/1.1" 200 31128
+[2020-07-02 22:10:35,378] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/project
+[2020-07-02 22:10:35,380] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/v1/result
+[2020-07-02 22:10:35,381] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/project?p=1 HTTP/1.1" 404 3519
+[2020-07-02 22:10:35,381] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/v1/result?p=1 HTTP/1.1" 404 3516
+[2020-07-02 22:10:36,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /base/admin/testcase HTTP/1.1" 200 33730
+[2020-07-02 22:10:36,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/project?p=1 HTTP/1.1" 200 315
+[2020-07-02 22:10:36,424] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /base/api/v1/testcase?p=1 HTTP/1.1" 200 493
+[2020-07-02 22:14:06,277] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\EasyTest_UI\__init__.py changed, reloading.
+[2020-07-02 23:07:21,815] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 23:20:20,384] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 23:31:34,907] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 23:33:39,289] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 23:35:18,631] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 23:35:34,396] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\EasyTest_UI\EasyTest_UI\__init__.py changed, reloading.
+[2020-07-02 23:35:36,749] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

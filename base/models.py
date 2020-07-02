@@ -223,8 +223,8 @@ class TestCase(models.Model):
         db_table = "testcase"
 
     def clean(self):
-        projectId = self.project.id if self.project.id else 0
-        projectId = int(self.project.id) if str(projectId).isdigit() else 0
+        project_id = self.project_id if self.project_id else 0
+        project_id = int(self.project_id) if str(project_id).isdigit() else 0
         title = self.title.strip() if self.title else ""
         # Type = self.type
         level = self.level
@@ -238,7 +238,7 @@ class TestCase(models.Model):
         login = self.beforeLogin
         if not isinstance(login, list):
             raise ValidationError({'beforeLogin': '无效的登录配置'})
-        if not projectId or projectId < 1:
+        if not project_id or project_id < 1:
             raise ValidationError({'projectId': '无效的项目Id'})
         if not title or 0 >= len(title) or len(title) > 200:
             raise ValidationError({'title': '无效的测试用例标题'})

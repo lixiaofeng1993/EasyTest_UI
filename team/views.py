@@ -43,7 +43,7 @@ def register(request):
         email = request.POST.get('email', '')
         password = request.POST.get('password', '')
         confirm = request.POST.get('confirm', '')
-        msg = register_info_logic(nick, email, password, confirm)
+        msg = register_info_logic(nick, password, confirm, email)
         if msg != 'ok':
             messages.add_message(request, messages.WARNING, msg)
             return render(request, 'login/register.html')

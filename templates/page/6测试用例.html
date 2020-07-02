@@ -115,7 +115,7 @@
                                         </div>
 
                                         <button type="submit" class="btn btn-primary" onclick="search()">搜索</button>
-                                        <a class="btn btn-info" href="/admin/testcase/create">新建</a>
+                                        <a class="btn btn-info" href="/base/admin/testcase/create">新建</a>
                                     </div>
 
                                 </div>
@@ -243,7 +243,7 @@
                     <button type="button" class="btn btn-default" data-dismiss="modal">
                         否
                     </button>
-                    <a type="button" class="btn btn-primary" href="/admin/result">
+                    <a type="button" class="btn btn-primary" href="/base/admin/result">
                         是
                     </a>
 
@@ -279,7 +279,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -309,7 +309,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/testcase?p=1',
+                url: '/base/api/v1/testcase?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -335,7 +335,7 @@
                         tr += '<td class="center">' + res.data.testcase[i].createTime + '</td>';
                         tr += '<td class="center">';
                         tr += '<a href="javascript:void(0);" class="pointer" onclick="running(' + res.data.testcase[i].projectId + ',' + res.data.testcase[i].id + ')"><i class="fa fa-play"></i></a> &nbsp;&nbsp;&nbsp; ';
-                        tr += '<a href="/admin/testcase/' + res.data.testcase[i].id + '" class="pointer"><i class="fa fa-pencil"></i></a> &nbsp;&nbsp;&nbsp; ';
+                        tr += '<a href="/base/admin/testcase/' + res.data.testcase[i].id + '" class="pointer"><i class="fa fa-pencil"></i></a> &nbsp;&nbsp;&nbsp; ';
                         tr += '<a href="javascript:void(0);" class="pointer" Cid="' + res.data.testcase[i].id + '" onclick="copyNew(this)"><i class="fa fa-copy"></i></a> &nbsp;&nbsp;&nbsp; ';
                         tr += '<a href="javascript:void(0);" class="pointer" Did="' + res.data.testcase[i].id + '" onclick="deleteNew(this)"><i class="fa fa-times"></i></a>';
 
@@ -374,7 +374,7 @@
             CopyID = $(_this).attr('Cid');
             // $(".js_Copymessage").html("");
             $.ajax({
-                url: '/api/v1/testcase/copy/' + CopyID,
+                url: '/base/api/v1/testcase/copy/' + CopyID,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
@@ -395,7 +395,7 @@
                         };
 
                         $.ajax({
-                            url: '/api/v1/testcase/create',
+                            url: '/base/api/v1/testcase/create',
                             type: 'post',
                             dataType: 'json',
                             data: JSON.stringify(data),
@@ -429,7 +429,7 @@
         function determine() {
 
             $.ajax({
-                url: '/api/v1/testcase/delete/' + DeleteID,
+                url: '/base/api/v1/testcase/delete/' + DeleteID,
                 type: 'get',
                 //data:formParam,
                 dataType: 'json',
@@ -451,7 +451,7 @@
 
         function editList(_this) {
             var testcaseID = $(_this).attr('id');
-            var url = "/admin/testcase/" + testcaseID;
+            var url = "/base/admin/testcase/" + testcaseID;
             $(_this).attr("href", url);
         }
 
@@ -477,7 +477,7 @@
             $("#es").find("option").remove();
             $("#running").modal("show");
             $.ajax({
-                url: '/api/v1/browser',
+                url: '/base/api/v1/browser',
                 type: 'POST',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId}),
@@ -492,7 +492,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/environment?p=1',
+                url: '/base/api/v1/environment?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -522,7 +522,7 @@
                 return;
             }
             $.ajax({
-                url: '/api/v1/testcase/running/' + testcaseId,
+                url: '/base/api/v1/testcase/running/' + testcaseId,
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"browsers": browsers, "environments": environments}),

@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-header">
-                        <a href="/admin/testcase"><span class="this-page">测试用例</span></a> - 编辑测试用例
+                        <a href="/base/admin/testcase"><span class="this-page">测试用例</span></a> - 编辑测试用例
                     </h1>
                 </div>
             </div>
@@ -195,7 +195,7 @@
                                                 onclick="editTestCase()">保存
                                         </button>
                                         <button type="button" class="btn btn-default"
-                                                onclick="javascript:window.location.href='/admin/testcase'">取消
+                                                onclick="javascript:window.location.href='/base/admin/testcase'">取消
                                         </button>
                                     </div>
                                 </div>
@@ -417,7 +417,7 @@
             $("#check-element").find("option").remove();
             $("#check-element").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageId": pageId, "pageSize": 9999999}),
@@ -440,7 +440,7 @@
             $("#step-keyword").append("<option value='0'>选择关键字</option>");
             $("#page,#check-page").append("<option value='0'>选择页面</option>");
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -451,7 +451,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -464,7 +464,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -486,13 +486,13 @@
             // var projectId;
             // projectId = $("#projectSelect option:selected").val();
             $.ajax({
-                url: '/api/v1/testcase/' + tid,
+                url: '/base/api/v1/testcase/' + tid,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
                     if (res.code == 200) {
                         $("#testcaseTitle").val(res.data.title);
-                        var projectId = res.data.projectId;
+                        var projectId = res.data.project;
                         // for (var i = 0; i < res.data.projects.length; i++) {
                         //     // $("#projectSelect").append('<option value="' + res.data.projects[i].id + '">' + res.data.projects[i].name + '</option>');
                         //     $("#projectSelect").append("<option checked='checked' value='" + projectId + "'>" + res.data.projectName + "</option>");
@@ -574,7 +574,7 @@
                         });
                         $("#testData").append(trs);
                     } else {
-                        window.location.href = '/admin/testcase'
+                        window.location.href = '/base/admin/testcase'
                     }
                 }
             });
@@ -619,7 +619,7 @@
                 "selectText": selectText
             };
             $.ajax({
-                url: '/api/v1/testcase/edit/' + testcaseId,
+                url: '/base/api/v1/testcase/edit/' + testcaseId,
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify(data),
@@ -627,7 +627,7 @@
                     if (res.code == 200) {
                         $("#message").html("添加成功,即将跳转到列表页");
                         setTimeout(function () {
-                            window.location.href = '/admin/testcase';
+                            window.location.href = '/base/admin/testcase';
                         }, 1000)
                     } else {
                         $("#message").html(res.message);
@@ -673,7 +673,7 @@
                 elementSelect.find("option").remove();
                 elementSelect.append("<option value='0'>选择元素</option>");
                 $.ajax({
-                    url: '/api/v1/element?p=1',
+                    url: '/base/api/v1/element?p=1',
                     type: 'post',
                     dataType: 'json',
                     data: JSON.stringify({"pageId": pageId, "pageSize": 9999999}),
@@ -778,7 +778,7 @@
                 elementSelect.find("option").remove();
                 elementSelect.append("<option value='0'>选择元素</option>");
                 $.ajax({
-                    url: '/api/v1/element?p=1',
+                    url: '/base/api/v1/element?p=1',
                     type: 'post',
                     dataType: 'json',
                     data: JSON.stringify({"pageId": pageId, "pageSize": 9999999}),
@@ -951,7 +951,7 @@
                     $("#elementValue").find("option").remove();
                     $("#elementValue").append("<option value='0'>选择元素</option>");
                     $.ajax({
-                        url: '/api/v1/element?p=1',
+                        url: '/base/api/v1/element?p=1',
                         type: 'post',
                         dataType: 'json',
                         data: JSON.stringify({"pageId": data["pageId"], "pageSize": 9999999}),
@@ -1041,7 +1041,7 @@
             $("#elementValue").find("option").remove();
             $("#elementValue").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -1054,7 +1054,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -1067,7 +1067,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -1083,7 +1083,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/login?p=1',
+                url: '/base/api/v1/login?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -1103,7 +1103,7 @@
             $("#elementValue").find("option").remove();
             $("#elementValue").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageId": pageId, "pageSize": 9999999}),
@@ -1123,7 +1123,7 @@
             $("#check-element").find("option").remove();
             $("#check-element").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageId": pageId, "pageSize": 9999999}),
@@ -1166,7 +1166,7 @@
             $("#keyword-value").find("tr").remove();
             var keywordId = $("#step-keyword option:selected").val();//所属项目
             $.ajax({
-                url: '/api/v1/keyword/' + keywordId,
+                url: '/base/api/v1/keyword/' + keywordId,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
@@ -1374,7 +1374,7 @@
         function initLogins(projectId, object) {
             $("#logins option").remove();
             $.ajax({
-                url: '/api/v1/login?p=1',
+                url: '/base/api/v1/login?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),

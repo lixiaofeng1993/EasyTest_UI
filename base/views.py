@@ -665,7 +665,7 @@ class Keyword:
             ks = keyword.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                         name__contains=name).order_by("-createTime")
             if project_id:
-                ks = ks.filter(projectId__in=[None, project_id])
+                ks = ks.filter(project_id__in=[None, project_id])
             if t:
                 ks = ks.filter(type=t)
             total = len(ks)
@@ -732,7 +732,7 @@ class TestCase:
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
         tc = testcase()
-        tc.projectId = parameter.get("projectId", 0)
+        tc.project_id = parameter.get("projectId", 0)
         tc.level = parameter.get("level", 1)
         tc.level = int(tc.level) if str(tc.level).isdigit() else 0
         tc.title = parameter.get("title", None)
@@ -757,7 +757,7 @@ class TestCase:
         tc.beforeLogin = json.dumps(tc.beforeLogin, ensure_ascii=False)
         tc.parameter = json.dumps(tc.parameter, ensure_ascii=False)
         tc.steps = json.dumps(tc.steps, ensure_ascii=False)
-        ks = get_model(testcase, False, title__exact=tc.title, projectId=tc.projectId)
+        ks = get_model(testcase, False, title__exact=tc.title, project_id=tc.project_id)
         if ks:
             return JsonResponse.BadRequest("项目已存在该用例,请修改后重试")
         try:
@@ -790,8 +790,8 @@ class TestCase:
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
         # 判断参数有效性
-        tc.projectId = parameter.get("projectId", 0)
-        tc.projectId = int(tc.projectId) if str(tc.projectId).isdigit() else 0
+        project_id = parameter.get("projectId", 0)
+        tc.project_id = int(project_id) if str(project_id).isdigit() else 0
         tc.level = parameter.get("level", 1)
         tc.level = int(tc.level) if str(tc.level).isdigit() else 0
         tc.title = parameter.get("title", None)
@@ -816,7 +816,7 @@ class TestCase:
         tc.beforeLogin = json.dumps(tc.beforeLogin, ensure_ascii=False)
         tc.parameter = json.dumps(tc.parameter, ensure_ascii=False)
         tc.steps = json.dumps(tc.steps, ensure_ascii=False)
-        if testcase.objects.filter(title__exact=tc.title, projectId=tc.projectId).exclude(id=tc.id):
+        if testcase.objects.filter(title__exact=tc.title, project_id=tc.project_id).exclude(id=tc.id):
             return JsonResponse.BadRequest("项目已存在该测试用例,请修改后重试")
         # 保存
         try:
@@ -831,8 +831,8 @@ class TestCase:
             parameter = get_request_body(request)
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
-        projectId = parameter.get("projectId", 0)
-        projectId = int(projectId) if str(projectId).isdigit() and int(projectId) >= 1 else 0
+        project_id = parameter.get("projectId", 0)
+        project_id = int(project_id) if str(project_id).isdigit() and int(project_id) >= 1 else 0
         title = parameter.get("title") if parameter.get("title", "") else ""
         title = title.strip()
         level = parameter.get("level") if parameter.get("level", 0) else 0
@@ -850,8 +850,8 @@ class TestCase:
         try:
             tcs = testcase.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                           title__contains=title).order_by("-createTime")
-            if projectId:
-                tcs = tcs.filter(projectId=projectId)
+            if project_id:
+                tcs = tcs.filter(project_id=project_id)
             if level:
                 tcs = tcs.filter(level=level)
             # if status:
@@ -863,9 +863,9 @@ class TestCase:
         tcs_list = list()
         for tc in tcs:
             dic = model_to_dict(tc,
-                                ["id", "projectId", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
+                                ["id", "project", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
                                  'selectText'])
-            pro = get_model(project, id=tc.projectId)
+            pro = get_model(project, id=tc.project_id)
             dic["projectName"] = pro.name if pro else ""
             dic["parameter"] = json.loads(tc.parameter) if tc.parameter else []
             dic["steps"] = json.loads(tc.steps) if tc.steps else []
@@ -883,14 +883,14 @@ class TestCase:
         if not tc:
             return JsonResponse.BadRequest("该测试用例不存在")
         result = model_to_dict(tc,
-                               ["id", "projectId", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
+                               ["id", "project", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
                                 'selectText'])
-        result['projectName'] = get_model(project, id=tc.projectId).name
+        result['projectName'] = get_model(project, id=tc.project_id).name
         result["parameter"] = json.loads(tc.parameter) if tc.parameter else []
         if tc.checkType == "element":
             page_element = get_model(element, id=tc.checkValue)
-            pageId = page_element.pageId if page_element else 0
-            result["pageId"] = pageId
+            page_id = page_element.page_id if page_element else 0
+            result["pageId"] = page_id
         steps = json.loads(tc.steps) if tc.steps else []
         steps_ = list()
         for step in steps:
@@ -909,7 +909,7 @@ class TestCase:
                 if not pa["isParameter"]:
                     if value["type"] == "element":
                         ele = get_model(element, id=value["value"])
-                        pa["pageId"] = ele.pageId
+                        pa["pageId"] = ele.page_id
                         pa["elementName"] = ele.name
                 info_value.append(pa)
             info["viewData"] = info_value
@@ -925,14 +925,14 @@ class TestCase:
         if not tc:
             return JsonResponse.BadRequest("该测试用例不存在")
         result = model_to_dict(tc,
-                               ["id", "projectId", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
+                               ["id", "project", 'title', 'level', 'remark', 'checkType', 'checkValue', 'checkText',
                                 'selectText'])
-        result['projectName'] = get_model(project, id=tc.projectId).name
+        result['projectName'] = get_model(project, id=tc.project_id).name
         result["parameter"] = json.loads(tc.parameter) if tc.parameter else []
         if tc.checkType == "element":
             page_element = get_model(element, id=tc.checkValue)
-            pageId = page_element.pageId if page_element else 0
-            result["pageId"] = pageId
+            page_id = page_element.page_id if page_element else 0
+            result["pageId"] = page_id
         steps = json.loads(tc.steps) if tc.steps else []
         result["steps"] = steps
         result["beforeLogin"] = json.loads(tc.beforeLogin) if tc.beforeLogin else []
@@ -956,7 +956,7 @@ class TestCase:
         for browser in browsers:
             if not (str(browser).isdigit() and int(browser) > 0):
                 return JsonResponse.BadRequest("参数错误：browser应该是个正确的Id")
-        r = Result.objects.create(projectId=tc.projectId, testcaseId=tc.id, checkValue=tc.checkValue,
+        r = Result.objects.create(project_id=tc.project_id, testcaseId=tc.id, checkValue=tc.checkValue,
                                   checkText=tc.checkText, selectText=tc.selectText,
                                   checkType=tc.checkType, title=tc.title, beforeLogin=tc.beforeLogin,
                                   steps=tc.steps, parameter=tc.parameter,
@@ -1281,10 +1281,10 @@ class Public:
         for p in projects:
             info = dict()
             info["projectName"] = p.name
-            info["testcaseNum"] = len(testcase.objects.filter(projectId=p.id))
-            st = Result.objects.filter(projectId=p.id, status=30)
+            info["testcaseNum"] = len(testcase.objects.filter(project_id=p.id))
+            st = Result.objects.filter(project_id=p.id, status=30)
             info["successfulTotal"] = len(st)
-            ft = Result.objects.filter(projectId=p.id).exclude(status=30)
+            ft = Result.objects.filter(project_id=p.id).exclude(status=30)
             info["failureTotal"] = len(ft)
             info["successfulToday"] = len(
                 st.filter(createTime__lt=(today + " 23:59:59"), createTime__gt=(today + " 00:00:00")))
@@ -1303,7 +1303,7 @@ class Public:
         data_failure = list()
         for p in all_project:
             project_list.append(p.name)
-            all_result = Result.objects.filter(projectId=p.id)
+            all_result = Result.objects.filter(project_id=p.id)
             data_queue.append(len(all_result.filter(status=10)))
             data_testing.append(len(all_result.filter(status=20)))
             data_succeed.append(len(all_result.filter(status=30)))

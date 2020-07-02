@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-header">
-                        <a href="/admin/keyword"><span class="this-page">关键字库</span></a> - 编辑关键字
+                        <a href="/base/admin/keyword"><span class="this-page">关键字库</span></a> - 编辑关键字
                     </h1>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                                                 onclick="createKeyword()">保存
                                         </button>
                                         <button type="button" class="btn btn-default"
-                                                onclick="javascript:window.location.href='/admin/keyword'">取消
+                                                onclick="javascript:window.location.href='/base/admin/keyword'">取消
                                         </button>
                                     </div>
                                 </div>
@@ -386,7 +386,7 @@
         function init() {
             var keywordId = $("#keywordName").attr("data-id");
             $.ajax({
-                url: '/api/v1/keyword/' + keywordId,
+                url: '/base/api/v1/keyword/' + keywordId,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
@@ -452,7 +452,7 @@
                             $("#steps").append(tr)
                         }
                     } else {
-                        window.location.href = '/admin/keyword'
+                        window.location.href = '/base/admin/keyword'
                     }
                 }
             });
@@ -466,7 +466,7 @@
             $("#step-keyword").append("<option value='0'>选择关键字</option>");
             $("#page").append("<option value='0'>选择页面</option>");
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -477,7 +477,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -490,7 +490,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -509,7 +509,7 @@
             $("#elementValue").find("option").remove();
             $("#elementValue").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageId": pageId, "pageSize": 9999999}),
@@ -527,7 +527,7 @@
             $("#keyword-value").find("tr").remove();
             var keywordId = $("#step-keyword option:selected").val();//所属项目
             $.ajax({
-                url: '/api/v1/keyword/' + keywordId,
+                url: '/base/api/v1/keyword/' + keywordId,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
@@ -653,7 +653,7 @@
                 "projectId": projectId
             };
             $.ajax({
-                url: '/api/v1/keyword/edit/' + keywordId,
+                url: '/base/api/v1/keyword/edit/' + keywordId,
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify(data_),
@@ -661,7 +661,7 @@
                     if (res.code == 200) {
                         $("#message").html("编辑成功,即将跳转到列表页");
                         setTimeout(function () {
-                            window.location.href = '/admin/keyword';
+                            window.location.href = '/base/admin/keyword';
                         }, 1000)
                     } else {
                         $("#message").html(res.message);
@@ -853,7 +853,7 @@
                     $("#elementValue").find("option").remove();
                     $("#elementValue").append("<option value='0'>选择元素</option>");
                     $.ajax({
-                        url: '/api/v1/element?p=1',
+                        url: '/base/api/v1/element?p=1',
                         type: 'post',
                         dataType: 'json',
                         data: JSON.stringify({"pageId": data["pageId"], "pageSize": 9999999}),

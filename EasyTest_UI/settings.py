@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import djcelery
+from celery.schedules import crontab
+from datetime import timedelta
+
+djcelery.setup_loader()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,20 +29,21 @@ SECRET_KEY = '69t#lpu-x_tl@_lt=jbyys2udg)h7fmcw8@0%3ke8q*fi2=cj!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*', '192.168.1.3', 'localhost', '127.0.0.1']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'base',
     'djcelery',
-    'team'
+    'team',
+    'base'
 ]
 
 MIDDLEWARE = [
@@ -55,8 +61,7 @@ ROOT_URLCONF = 'EasyTest_UI.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -143,7 +148,7 @@ djcelery.setup_loader()
 BROKER_URL = 'redis://127.0.0.1:6379/0'
 # broker_pool_limit=None
 # BROKER_POOL_LIMIT=None
-CELERY_IMPORTS = ('Product.tasks')
+CELERY_IMPORTS = ('base.tasks')
 CELERY_TIMEZONE = 'Asia/Shanghai'
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 CELERY_ENABLE_UTC = False
@@ -287,48 +292,48 @@ SIMPLEUI_CONFIG = {
             ]
         },
         {
-            'app': 'Product',
+            'app': 'base',
             'name': '测试平台',
             # 'icon': 'fas fa-user-shield',
             'models': [
                 {
                     'name': '项目管理',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/project/'
+                    'url': 'base/project/'
                 },
                 {
                     'name': '页面管理',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/page/'
+                    'url': 'base/page/'
                 },
                 {
                     'name': '页面元素',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/element/'
+                    'url': 'base/element/'
                 },
                 {
                     'name': '关键字库',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/keyword/'
+                    'url': 'base/keyword/'
                 },
                 {
                     'name': '测试用例',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/testcase/'
+                    'url': 'base/testcase/'
                 },
                 {
                     'name': '测试结果',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/result/'
+                    'url': 'base/result/'
                 },
                 {
                     'name': '登录配置',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/loginconfig/'
+                    'url': 'base/loginconfig/'
                 }, {
                     'name': '任务管理',
                     # 'icon': 'fa fa-product-hunt fa-fw',
-                    'url': 'Product/task/'
+                    'url': 'base/task/'
                 },
             ]
         },

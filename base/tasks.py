@@ -1,3 +1,5 @@
+import django
+django.setup()
 import json
 import random
 from datetime import datetime

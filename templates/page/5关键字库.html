@@ -201,6 +201,7 @@
                 success: function (res) {
                     $('#dataTables-example').dataTable().fnClearTable();//清空数据.fnClearTable();//清空数据
                     $('#dataTables-example').dataTable().fnDestroy(); //还原初始化了的datatable
+                    console.log(res, 11111111111);
                     for (var i = 0; i < res.data.keywords.length; i++) {
                         var key_list = 0, type_num;
                         if (res.data.keywords[i].params == null) {
