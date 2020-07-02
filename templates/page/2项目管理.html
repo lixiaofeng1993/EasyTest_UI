@@ -213,7 +213,7 @@
             $("#myModalLabel").html("编辑项目");
             $("#save").attr("onclick", "editSave(" + id + ")");
             $.ajax({
-                url: '/api/v1/project/' + id,
+                url: '/base/api/v1/project/' + id,
                 type: 'post',
                 contentType: 'application/json',
                 dataType: 'json',
@@ -235,7 +235,7 @@
             remark = $("#remark").val();
             var data = JSON.stringify({"name": projectName, "remark": remark});
             $.ajax({
-                url: '/api/v1/project/edit/' + id,
+                url: '/base/api/v1/project/edit/' + id,
                 type: 'post',
                 contentType: 'application/json',
                 data: data,
@@ -260,7 +260,7 @@
 
         function del(id) {
             $.ajax({
-                url: '/api/v1/project/delete/' + id,
+                url: '/base/api/v1/project/delete/' + id,
                 type: 'post',
                 contentType: 'application/json',
                 dataType: 'json',
@@ -312,7 +312,7 @@
                         tr += '<td class="center">' + res.data.projects[i].environments.length + '</td>';
                         tr += '<td class="center">' + res.data.projects[i].remark + '</td>';
                         tr += '<td class="center">';
-                        tr += '<a href="/admin/project/' + res.data.projects[i].id + '" class="pointer"><i class="fa fa-gear"></i></a>';
+                        tr += '<a href="/base/admin/project/' + res.data.projects[i].id + '" class="pointer"><i class="fa fa-gear"></i></a>';
                         tr += '&nbsp;&nbsp;&nbsp;';
                         tr += '<a href="javascript:void(0);" class="pointer" onclick="edit(' + res.data.projects[i].id + ')"><i class="fa fa-pencil"></i></a>';
                         tr += '&nbsp;&nbsp;&nbsp;';

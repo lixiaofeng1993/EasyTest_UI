@@ -48,8 +48,8 @@ class Project:
             return JsonResponse.BadRequest("项目已存在,请修改后重试")
         try:
             p.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -57,20 +57,20 @@ class Project:
         p = get_model(project, id=project_id)
         if not p:
             return JsonResponse(404, "该项目不存在")
-        pages = page.objects.filter(projectId=p.id)
+        pages = page.objects.filter(project_id=p.id)
         if pages:
             return JsonResponse(400, "删除失败，请先删除项目下的所有页面")
-        keywords = keyword.objects.filter(projectId=p.id)
+        keywords = keyword.objects.filter(project_id=p.id)
         if keywords:
             return JsonResponse(400, "删除失败，请先删除项目下的所有关键字")
-        loginConfigs = LoginConfig.objects.filter(projectId=p.id)
-        if loginConfigs:
+        login_config = LoginConfig.objects.filter(project_id=p.id)
+        if login_config:
             return JsonResponse(400, "删除失败，请先删除项目下的所有登录配置")
         try:
-            environment.objects.filter(projectId=p.id).delete()
+            environment.objects.filter(project_id=p.id).delete()
             p.delete()
-        except:
-            return JsonResponse(500, "服务器发生错误")
+        except Exception as e:
+            return JsonResponse(500, "服务器发生错误:{}".format(e))
         return JsonResponse(200, "ok")
 
     @staticmethod
@@ -99,8 +99,8 @@ class Project:
         # 保存
         try:
             p.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -119,13 +119,14 @@ class Project:
         end_time = parameter.get("endTime", now) if parameter.get("endTime", now) else now
         name = parameter.get("name") if parameter.get("name", "") else ""
         creator = parameter.get("creator") if parameter.get("creator", "") else ""
+        tid = request.session.get('tid', '')
         try:
             projects = project.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                               name__contains=name, creator__contains=creator,
-                                              team_id=request.session.get('tid', '')).order_by("-createTime")
+                                              team_id=tid).order_by("-createTime")
             total = len(projects)
-        except:
-            return JsonResponse(400, "时间参数错误")
+        except Exception as e:
+            return JsonResponse(400, "时间参数错误:{}".format(e))
         projects = projects[(page_index - 1) * page_size:page_index * page_size]
         project_list = list()
         for p in projects:
@@ -151,7 +152,7 @@ class Project:
             return JsonResponse.BadRequest("该项目不存在")
         result = model_to_dict(p, ["id", 'name', 'creator', 'remark'])
         result["createTime"] = p.createTime.strftime('%Y-%m-%d %H:%M:%S')
-        es = get_model(environment, False, projectId=p.id)
+        es = get_model(environment, False, project_id=p.id)
         e_list = list()
         for e in es:
             e_dic = model_to_dict(e, ["id", "name", "host", "remark"])
@@ -170,7 +171,7 @@ class Environment:
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
         e = environment()
-        e.projectId = parameter.get("projectId", 0)
+        e.project_id = parameter.get("projectId", 0)
         e.name = parameter.get("name", "")
         e.host = parameter.get("host", "")
         # if isinstance(host, dict):
@@ -182,12 +183,12 @@ class Environment:
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         e.name = e.name.strip()
-        if environment.objects.filter(name__exact=e.name, projectId=e.projectId):
+        if environment.objects.filter(name__exact=e.name, project_id=e.project_id):
             return JsonResponse.BadRequest("该环境已存在,请修改后重试")
         try:
             e.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -196,10 +197,10 @@ class Environment:
         if not e:
             return JsonResponse(404, "该环境不存在")
         try:
-            EnvironmentLogin.objects.filter(environmentId=e.id).delete()
+            EnvironmentLogin.objects.filter(environment_id=e.id).delete()
             e.delete()
-        except:
-            return JsonResponse(500, "服务器发生错误")
+        except Exception as e:
+            return JsonResponse(500, "服务器发生错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -224,13 +225,13 @@ class Environment:
             return JsonResponse.BadRequest(','.join(ve.messages))
         # 判断重复
         e.name = e.name.strip()
-        if environment.objects.filter(name__exact=e.name, projectId=e.projectId).exclude(id=e.id):
+        if environment.objects.filter(name__exact=e.name, project_id=e.projectId).exclude(id=e.id):
             return JsonResponse.BadRequest("项目已存在该环境,请修改后重试")
         # 保存
         try:
             e.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -244,17 +245,17 @@ class Environment:
         page_size = parameter.get("pageSize", 10)
         page_size = int(page_size) if str(page_size).isdigit() and int(page_size) >= 1 else 10
         name = parameter.get("name") if parameter.get("name", "") else ""
-        projectId = parameter.get("projectId", 0)
-        projectId = int(projectId) if str(projectId).isdigit() else 0
+        project_id = parameter.get("projectId", 0)
+        project_id = int(project_id) if str(project_id).isdigit() else 0
         try:
-            environments = environment.objects.filter(name__contains=name, projectId=projectId).order_by("-id")
+            environments = environment.objects.filter(name__contains=name, project_id=project_id).order_by("-id")
             total = len(environments)
-        except:
-            return JsonResponse(400, "时间参数错误")
+        except Exception as e:
+            return JsonResponse(400, "时间参数错误:{}".format(e))
         environments = environments[(page_index - 1) * page_size:page_index * page_size]
         environments_list = list()
         for e in environments:
-            environments_list.append(model_to_dict(e, ["id", "projectId", 'name', 'host', 'remark']))
+            environments_list.append(model_to_dict(e, ["id", "project", 'name', 'host', 'remark']))
         result = dict()
         result["total"] = total
         result["environments"] = environments_list
@@ -265,7 +266,7 @@ class Environment:
         e = get_model(environment, id=environment_id)
         if not e:
             return JsonResponse.BadRequest("该环境不存在")
-        result = model_to_dict(e, ["id", 'projectId', 'name', 'host', 'remark'])
+        result = model_to_dict(e, ["id", 'project', 'name', 'host', 'remark'])
         return JsonResponse.OK(message="ok", data=result)
 
 
@@ -280,18 +281,18 @@ class Page:
         p = page()
         p.name = parameter.get("name", "")
         p.remark = parameter.get("remark", "")
-        p.projectId = parameter.get("projectId", 0)
+        p.project_id = parameter.get("projectId", 0)
         try:
             p.clean()
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         p.name = p.name.strip()
-        if page.objects.filter(name__exact=p.name, projectId=p.projectId):
+        if page.objects.filter(name__exact=p.name, project_id=p.project_id):
             return JsonResponse.BadRequest("项目已存在该页面,请修改后重试")
         try:
             p.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -299,13 +300,13 @@ class Page:
         p = get_model(page, id=page_id)
         if not p:
             return JsonResponse(404, "该页面不存在")
-        es = element.objects.filter(pageId=page_id)
+        es = element.objects.filter(page_id=page_id)
         if es:
             return JsonResponse(400, "该页面已关联元素，请删除元素后重试")
         try:
             p.delete()
-        except:
-            return JsonResponse(500, "服务器发生错误")
+        except Exception as e:
+            return JsonResponse(500, "服务器发生错误:{}".format(e))
         return JsonResponse(200, "ok")
 
     @staticmethod
@@ -323,20 +324,19 @@ class Page:
         # 判断参数有效性
         p.name = parameter.get("name", "")
         p.remark = parameter.get("remark", "")
-        # p.projectId = parameter.get("projectId", 0)
         try:
             p.clean()
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         p.name = p.name.strip()
         # 判断重复
-        if page.objects.filter(name__exact=p.name, projectId=p.projectId).exclude(id=p.id):
+        if page.objects.filter(name__exact=p.name, project_id=p.project_id).exclude(id=p.id):
             return JsonResponse.BadRequest("项目已存在该页面,请修改后重试")
         # 保存
         try:
             p.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -345,8 +345,8 @@ class Page:
             parameter = get_request_body(request)
         except ValueError:
             return JsonResponse(500, "json格式错误")
-        projectId = parameter.get("projectId", 0)
-        projectId = int(projectId) if str(projectId).isdigit() and int(projectId) > 0 else 0
+        project_id = parameter.get("projectId", 0)
+        project_id = int(project_id) if str(project_id).isdigit() and int(project_id) > 0 else 0
         page_index = request.GET.get("p", 1)
         page_index = int(page_index) if str(page_index).isdigit() and int(page_index) >= 1 else 1
         page_size = parameter.get("pageSize", 10)
@@ -359,18 +359,18 @@ class Page:
         try:
             pages = page.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                         name__contains=name).order_by("-createTime")
-            if projectId:
-                pages = pages.filter(projectId=projectId)
+            if project_id:
+                pages = pages.filter(project_id=project_id)
             total = len(pages)
-        except:
-            return JsonResponse(400, "时间参数错误")
+        except Exception as e:
+            return JsonResponse(400, "时间参数错误:{}".format(e))
         pages = pages[(page_index - 1) * page_size:page_index * page_size]
         page_list = list()
         for p in pages:
-            dic = model_to_dict(p, ["id", "projectId", 'name', 'remark'])
+            dic = model_to_dict(p, ["id", "project", 'name', 'remark'])
             dic["createTime"] = p.createTime.strftime('%Y-%m-%d %H:%M:%S')
-            dic["projectName"] = project.objects.get(id=p.projectId).name
-            dic["elementNum"] = len(element.objects.filter(pageId=p.id))
+            dic["projectName"] = project.objects.get(id=p.project_id).name
+            dic["elementNum"] = len(element.objects.filter(page_id=p.id))
             page_list.append(dic)
         result = dict()
         result["total"] = total
@@ -382,10 +382,10 @@ class Page:
         p = get_model(page, id=page_id)
         if not p:
             return JsonResponse.BadRequest("该页面不存在")
-        result = model_to_dict(p, ["id", "projectId", 'name', 'remark'])
-        result["projectName"] = project.objects.get(id=p.projectId).name
+        result = model_to_dict(p, ["id", "project", 'name', 'remark'])
+        result["projectName"] = project.objects.get(id=p.project_id).name
         result["createTime"] = p.createTime.strftime('%Y-%m-%d %H:%M:%S')
-        result["elementNum"] = len(element.objects.filter(pageId=p.id))
+        result["elementNum"] = len(element.objects.filter(page_id=p.id))
         return JsonResponse.OK(message="ok", data=result)
 
 
@@ -400,26 +400,26 @@ class Element:
         e = element()
         e.name = parameter.get("name", "")
         e.remark = parameter.get("remark", "")
-        e.pageId = str(parameter.get("pageId", 0))
-        e.pageId = int(e.pageId) if e.pageId.isdigit() else 0
+        page_id = str(parameter.get("pageId", 0))
+        e.page_id = int(page_id) if page_id.isdigit() else 0
         e.by = parameter.get("by", "")
         e.locator = parameter.get("locator", "")
-        p = get_model(page, id=e.pageId)
+        p = get_model(page, id=e.page_id)
         if not p:
             return JsonResponse(404, "该页面不存在")
-        e.projectId = p.projectId
+        e.project_id = p.project_id
         try:
             e.clean()
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         e.name = e.name.strip()
         e.by = e.by.lower()
-        if get_model(element, False, name__exact=e.name, pageId=e.pageId):
+        if get_model(element, False, name__exact=e.name, page_id=e.page_id):
             return JsonResponse.BadRequest("页面已存在该元素,请修改后重试")
         try:
             e.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -429,8 +429,8 @@ class Element:
             JsonResponse(404, "该元素不存在")
         try:
             e.delete()
-        except:
-            return JsonResponse(500, "服务器发生错误")
+        except Exception as e:
+            return JsonResponse(500, "服务器发生错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -457,13 +457,13 @@ class Element:
         e.name = e.name.strip()
         e.by = e.by.lower()
         # 判断重复
-        if element.objects.filter(name__exact=e.name, pageId=e.pageId).exclude(id=e.id):
+        if element.objects.filter(name__exact=e.name, page_id=e.page_id).exclude(id=e.id):
             return JsonResponse.BadRequest("页面已存在该元素,请修改后重试")
         # 保存
         try:
             e.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -472,7 +472,7 @@ class Element:
         el = get_model(element, id=element_id)
         if not el:
             return JsonResponse.BadRequest("该元素不存在")
-        result = model_to_dict(el, ["id", "projectId", 'name', 'remark', 'by', 'locator', 'pageId'])
+        result = model_to_dict(el, ["id", "project", 'name', 'remark', 'by', 'locator', 'page'])
         return JsonResponse.OK(message="ok", data=result)
 
     @staticmethod
@@ -481,10 +481,10 @@ class Element:
             parameter = get_request_body(request)
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
-        projectId = parameter.get("projectId", 0)
-        projectId = int(projectId) if str(projectId).isdigit() and int(projectId) >= 1 else 0
-        pageId = parameter.get("pageId", 0)
-        pageId = int(pageId) if str(pageId).isdigit() and int(pageId) >= 1 else 0
+        project_id = parameter.get("projectId", 0)
+        project_id = int(project_id) if str(project_id).isdigit() and int(project_id) >= 1 else 0
+        page_id = parameter.get("pageId", 0)
+        page_id = int(page_id) if str(page_id).isdigit() and int(page_id) >= 1 else 0
         page_index = request.GET.get("p", 1)
         page_index = int(page_index) if str(page_index).isdigit() and int(page_index) >= 1 else 1
         page_size = parameter.get("pageSize", 10)
@@ -497,20 +497,20 @@ class Element:
         try:
             elements = element.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                               name__contains=name).order_by("-createTime")
-            if projectId:
-                elements = elements.filter(projectId=projectId)
-            if pageId:
-                elements = elements.filter(pageId=pageId)
+            if project_id:
+                elements = elements.filter(project_id=project_id)
+            if page_id:
+                elements = elements.filter(page_id=page_id)
             total = len(elements)
-        except:
-            return JsonResponse(400, "时间参数错误")
+        except Exception as e:
+            return JsonResponse(400, "时间参数错误:{}".format(e))
         elements = elements[(page_index - 1) * page_size:page_index * page_size]
         element_list = list()
         for e in elements:
-            dic = model_to_dict(e, ["id", "projectId", "pageId", 'name', 'by', 'locator', 'remark'])
+            dic = model_to_dict(e, ["id", "project", "page", 'name', 'by', 'locator', 'remark'])
             dic["createTime"] = e.createTime.strftime('%Y-%m-%d %H:%M:%S')
-            dic["pageName"] = page.objects.get(id=e.pageId).name
-            dic["projectName"] = project.objects.get(id=e.projectId).name
+            dic["pageName"] = page.objects.get(id=e.page_id).name
+            dic["projectName"] = project.objects.get(id=e.project_id).name
             element_list.append(dic)
         result = dict()
         result["total"] = total
@@ -522,9 +522,9 @@ class Element:
         e = get_model(element, id=element_id)
         if not e:
             return JsonResponse.BadRequest("该页面元素不存在")
-        result = model_to_dict(e, ["id", 'name', "projectId", 'pageId', 'by', 'locator', 'remark'])
-        result["pageName"] = page.objects.get(id=e.pageId).name
-        result["projectName"] = project.objects.get(id=e.projectId).name
+        result = model_to_dict(e, ["id", 'name', "project", 'page', 'by', 'locator', 'remark'])
+        result["pageName"] = page.objects.get(id=e.page_id).name
+        result["projectName"] = project.objects.get(id=e.project_id).name
         result["createTime"] = e.createTime.strftime('%Y-%m-%d %H:%M:%S')
         return JsonResponse(200, "ok", result)
 
@@ -546,15 +546,15 @@ class Keyword:
         kw.type = parameter.get("type", 0)
         kw.params = parameter.get("params", None)
         kw.steps = parameter.get("steps", None)
-        kw.projectId = parameter.get("projectId", 0)
-        kw.projectId = int(kw.projectId) if str(kw.projectId).isdigit() else 0
+        project_id = parameter.get("projectId", "")
+        kw.project_id = int(project_id) if str(project_id).isdigit() else None
         try:
             kw.clean()
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         kw.name = kw.name.strip()
-        projectIds = [0, kw.projectId]
-        ks = get_model(keyword, False, name__exact=kw.name, projectId__in=projectIds)
+        projectIds = [0, kw.project_id]
+        ks = get_model(keyword, False, name__exact=kw.name, project_id__in=projectIds)
         if ks:
             return JsonResponse.BadRequest("已存在该关键字,请修改后重试")
         if str(kw.type) == "2":
@@ -581,8 +581,8 @@ class Keyword:
             kw.params = json.dumps(kw.params, ensure_ascii=False)
         try:
             kw.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -592,8 +592,8 @@ class Keyword:
             return JsonResponse(404, "该关键字不存在")
         try:
             kw.delete()
-        except:
-            return JsonResponse(500, "服务器发生错误")
+        except Exception as e:
+            return JsonResponse(500, "服务器发生错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -613,15 +613,15 @@ class Keyword:
         kw.method = parameter.get("method", '')
         kw.params = parameter.get("params", kw.params)
         kw.steps = json.dumps(parameter.get("steps", []), ensure_ascii=False)
-        kw.projectId = parameter.get("projectId", 0)
-        kw.projectId = int(kw.projectId) if str(kw.projectId).isdigit() else 0
+        project_id = parameter.get("projectId", 0)
+        kw.project_id = int(project_id) if str(project_id).isdigit() else 0
         try:
             kw.clean()
         except ValidationError as ve:
             return JsonResponse.BadRequest(','.join(ve.messages))
         kw.name = kw.name.strip()
-        projectIds = [0, kw.projectId]
-        if keyword.objects.filter(name__exact=kw.name, projectId__in=projectIds).exclude(id=kw.id):
+        projectIds = [0, kw.project_id]
+        if keyword.objects.filter(name__exact=kw.name, project_id__in=projectIds).exclude(id=kw.id):
             return JsonResponse.BadRequest("已存在该关键字,请修改后重试")
         # 保存
         if kw.type == 2:
@@ -639,8 +639,8 @@ class Keyword:
             kw.params = json.dumps(kw.params, ensure_ascii=False)
         try:
             kw.save()
-        except:
-            return JsonResponse.ServerError("服务器发送错误")
+        except Exception as e:
+            return JsonResponse.ServerError("服务器发送错误:{}".format(e))
         return JsonResponse.OK()
 
     @staticmethod
@@ -649,8 +649,8 @@ class Keyword:
             parameter = get_request_body(request)
         except ValueError:
             return JsonResponse.BadRequest("json格式错误")
-        projectId = parameter.get("projectId", 0)
-        projectId = int(projectId) if str(projectId).isdigit() else 0
+        project_id = parameter.get("projectId", "")
+        project_id = int(project_id) if str(project_id).isdigit() else None
         page_index = request.GET.get("p", 1)
         page_index = int(page_index) if str(page_index).isdigit() and int(page_index) >= 1 else 1
         page_size = parameter.get("pageSize", 10)
@@ -664,19 +664,19 @@ class Keyword:
         try:
             ks = keyword.objects.filter(createTime__lt=end_time, createTime__gt=start_time,
                                         name__contains=name).order_by("-createTime")
-            if projectId:
-                ks = ks.filter(projectId__in=[0, projectId])
+            if project_id:
+                ks = ks.filter(projectId__in=[None, project_id])
             if t:
                 ks = ks.filter(type=t)
             total = len(ks)
-        except:
-            return JsonResponse(400, "时间参数错误")
+        except Exception as e:
+            return JsonResponse(400, "时间参数错误:{}".format(e))
         ks = ks[(page_index - 1) * page_size:page_index * page_size]
         kw_list = list()
         for k in ks:
-            dic = model_to_dict(k, ["id", "projectId", 'name', 'type', 'package', 'clazz', 'method',
+            dic = model_to_dict(k, ["id", "project", 'name', 'type', 'package', 'clazz', 'method',
                                     'remark'])
-            dic["projectName"] = "通用关键字封装" if k.projectId == 0 else project.objects.get(id=k.projectId).name
+            dic["projectName"] = "通用关键字封装" if k.project_id is None else project.objects.get(id=k.project_id).name
             dic["params"] = json.loads(k.params) if k.params else None
             dic["steps"] = json.loads(k.steps) if k.steps else None
             dic["createTime"] = k.createTime.strftime('%Y-%m-%d %H:%M:%S')
@@ -691,9 +691,9 @@ class Keyword:
         kw = get_model(keyword, id=keyword_id)
         if not kw:
             return JsonResponse.BadRequest("该关键字不存在")
-        result = model_to_dict(kw, ["id", "projectId", 'name', 'type', 'package', 'clazz', 'method', '', 'steps',
+        result = model_to_dict(kw, ["id", "project", 'name', 'type', 'package', 'clazz', 'method', '', 'steps',
                                     'remark'])
-        result["projectName"] = "通用关键字封装" if kw.projectId == 0 else project.objects.get(id=kw.projectId).name
+        result["projectName"] = "通用关键字封装" if kw.project_id is None else project.objects.get(id=kw.project_id).name
         result["params"] = json.loads(kw.params) if kw.params else None
         result["createTime"] = kw.createTime.strftime('%Y-%m-%d %H:%M:%S')
         steps = json.loads(kw.steps) if kw.steps else []

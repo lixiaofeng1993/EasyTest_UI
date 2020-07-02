@@ -84,7 +84,7 @@
         function init() {
             $("#Summary").find("tr").remove();
             $.ajax({
-                url: '/api/v1/projectSummary',
+                url: '/base/api/v1/projectSummary',
                 type: 'POST',
                 dataType: 'json',
                 success: function (res) {
@@ -111,7 +111,7 @@
 
         function loadLineChar() {
             $.ajax({
-                url: '/api/v1/lineChar',
+                url: '/base/api/v1/lineChar',
                 type: 'POST',
                 dataType: 'json',
                 success: function (res) {
@@ -152,7 +152,7 @@
 
         function loadingChar() {
             $.ajax({
-                url: '/api/v1/barChar',
+                url: '/base/api/v1/barChar',
                 type: 'POST',
                 dataType: 'json',
                 success: function (res) {

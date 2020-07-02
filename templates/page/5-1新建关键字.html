@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-header">
-                        <a href="/admin/keyword"><span class="this-page">关键字库</span></a> - 新建关键字
+                        <a href="/base/admin/keyword"><span class="this-page">关键字库</span></a> - 新建关键字
                     </h1>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                                         <label for="firstname" class="col-sm-2 control-label">包</label>
                                         <div class="col-sm-10">
                                             <input id='package' type="text" class="form-control"
-                                                   value="Autotest_platform.PageObject.base_page">
+                                                   value="EasyTest_UI.PageObject.base_page">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -153,7 +153,7 @@
                                                 onclick="createKeyword()">保存
                                         </button>
                                         <button type="button" class="btn btn-default"
-                                                onclick="javascript:window.location.href='/admin/keyword'">取消
+                                                onclick="javascript:window.location.href='/base/admin/keyword'">取消
                                         </button>
                                     </div>
                                 </div>
@@ -392,7 +392,7 @@
             $("#page").find("option").remove();
             $("#page").append("<option value='0'>选择页面</option>");
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageSize": 9999999}),
@@ -405,7 +405,7 @@
                 }
             });
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"projectId": projectId, "pageSize": 9999999}),
@@ -424,7 +424,7 @@
             $("#elementValue").find("option").remove();
             $("#elementValue").append("<option value='0'>选择元素</option>");
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify({"pageId": pageId, "pageSize": 9999999}),
@@ -442,7 +442,7 @@
             $("#keyword-value").find("tr").remove();
             var keywordId = $("#step-keyword option:selected").val();//所属项目
             $.ajax({
-                url: '/api/v1/keyword/' + keywordId,
+                url: '/base/api/v1/keyword/' + keywordId,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
@@ -512,7 +512,7 @@
             $("#projectSelect").append('<option value="0">通用关键字封装</option>');
             var data = JSON.stringify({"pageSize": 99999});
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -577,7 +577,7 @@
                 steps.push(data1);
             });
             var data_ = {
-                "projectId": projectId,
+                "projectId": "",
                 "type": type,
                 "name": name,
                 "package": package,
@@ -587,8 +587,9 @@
                 "remark": remark,
                 "steps": steps
             };
+            console.log(data_, 11111111111)
             $.ajax({
-                url: '/api/v1/keyword/create',
+                url: '/base/api/v1/keyword/create',
                 type: 'post',
                 dataType: 'json',
                 data: JSON.stringify(data_),
@@ -596,7 +597,7 @@
                     if (res.code == 200) {
                         $("#message").html("添加成功,即将跳转到列表页");
                         setTimeout(function () {
-                            window.location.href = '/admin/keyword';
+                            window.location.href = '/base/admin/keyword';
                         }, 1000)
                     } else {
                         $("#message").html(res.message);
@@ -790,7 +791,7 @@
                     $("#elementValue").find("option").remove();
                     $("#elementValue").append("<option value='0'>选择元素</option>");
                     $.ajax({
-                        url: '/api/v1/element?p=1',
+                        url: '/base/api/v1/element?p=1',
                         type: 'post',
                         dataType: 'json',
                         data: JSON.stringify({"pageId": data["pageId"], "pageSize": 9999999}),

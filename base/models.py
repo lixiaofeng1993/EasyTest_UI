@@ -85,11 +85,11 @@ class Page(models.Model):
 
     def clean(self):
         name = self.name.strip() if self.name else ""
-        projectId = int(self.project.id) if self.project.id and str(self.project.id).isdigit() else 0
+        project_id = int(self.project_id) if self.project_id and str(self.project_id).isdigit() else 0
         if 0 >= len(name) or len(name) > 20:
             raise ValidationError({'name': '无效的页面名称'})
-        if projectId < 1:
-            raise ValidationError({'projectId': '无效的项目Id'})
+        if project_id < 1:
+            raise ValidationError({'project_id': '无效的项目Id'})
 
 
 class Element(models.Model):
@@ -115,14 +115,14 @@ class Element(models.Model):
         locator = str(self.locator) if self.locator else ""
         by = str(self.by).lower() if self.by else ""
         # projectId = int(self.projectId) if str(self.projectId).isdigit() else 0
-        pageId = int(self.page.id) if str(self.page.id).isdigit() else 0
+        page_id = int(self.page_id) if str(self.page_id).isdigit() else 0
         if 0 >= len(name) or len(name) > 20:
             raise ValidationError({'name': '无效的元素名称'})
         # if projectId < 1:
         #     raise ValidationError({'projectId': 'projectId'})
-        if pageId < 1:
+        if page_id < 1:
             raise ValidationError({'pageId': '无效的页面Id'})
-        if not by in Element.BY_TYPES:
+        if by not in Element.BY_TYPES:
             raise ValidationError({'by': 'by'})
         if 0 >= len(locator) or len(locator) > 200:
             raise ValidationError({'locator': '无效的定位值'})
@@ -131,7 +131,7 @@ class Element(models.Model):
 class Keyword(models.Model):
     __KEYWORD_TYPES = {1: "system", 2: "custom"}
     # projectId = models.IntegerField()
-    project = models.ForeignKey(Project, on_delete=models.CASCADE, default=None)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE, default=None, null=True)
     name = models.CharField(max_length=20)
     type = models.IntegerField(default=2)
     package = models.CharField(max_length=200, null=True)
@@ -147,7 +147,7 @@ class Keyword(models.Model):
 
     def clean(self):
         name = self.name.strip() if self.name else ""
-        projectId = int(self.project.id) if str(self.project.id).isdigit() else 0
+        project_id = int(self.project_id) if str(self.project_id).isdigit() else 0
         package = self.package
         clazz = self.clazz
         method = self.method
@@ -157,7 +157,7 @@ class Keyword(models.Model):
         step = self.steps if self.steps else []
         if 0 >= len(name) or len(name) > 20:
             raise ValidationError({'name': '无效的关键字名称'})
-        if projectId < 0:
+        if project_id < 0:
             raise ValidationError({'projectId': '无效的项目Id'})
         if t == 1:
             try:
@@ -181,7 +181,7 @@ class Keyword(models.Model):
             for s in step:
                 if not isinstance(s, dict):
                     raise ValidationError({'step': '无效的操作步骤'})
-                if not "keywordId" in s:
+                if "keywordId" not in s:
                     raise ValidationError({'step': '无效的操作步骤 : keywordId'})
                 keywordId = int(s.get("keywordId")) if str(s.get("keywordId")).isdigit() else 0
                 if keywordId < 1:
@@ -293,10 +293,10 @@ class Environment(models.Model):
         db_table = 'Environment'
 
     def clean(self):
-        projectId = int(self.project.id) if str(self.project.id).isdigit() and int(self.project.id) > 0 else 0
+        project_id = int(self.project.id) if str(self.project.id).isdigit() and int(self.project.id) > 0 else 0
         name = self.name.strip() if self.name else ""
         host = str(self.host).strip() if self.host else ""
-        if projectId < 1:
+        if project_id < 1:
             raise ValidationError({'projectId': '无效的项目Id'})
         if not name or len(name) > 20 or len(name) < 1:
             raise ValidationError({'name': '无效的环境名称'})

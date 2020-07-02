@@ -78,7 +78,7 @@
                                         </div>
 
                                         <button type="submit" class="btn btn-primary" onclick="search()">搜索</button>
-                                        <a class="btn btn-info" id="href_id" href="/admin/keyword/create">新建</a>
+                                        <a class="btn btn-info" id="href_id" href="/base/admin/keyword/create">新建</a>
                                     </div>
 
                                 </div>
@@ -164,7 +164,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -194,7 +194,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -259,7 +259,7 @@
         function determine() {
 
             $.ajax({
-                url: '/api/v1/keyword/delete/' + DeleteID,
+                url: '/base/api/v1/keyword/delete/' + DeleteID,
                 type: 'get',
                 //data:formParam,
                 dataType: 'json',
@@ -282,7 +282,7 @@
          */
         function editList(_this) {
             var editID = $(_this).attr('id');
-            var url = "/admin/keyword/edit/" + editID;
+            var url = "/base/admin/keyword/edit/" + editID;
             $(_this).attr("href", url);
         }
 
@@ -293,7 +293,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/keyword?p=1',
+                url: '/base/api/v1/keyword?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,

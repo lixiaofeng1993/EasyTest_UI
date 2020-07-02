@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import ListView
 from django.utils.decorators import method_decorator
 from base.models import Team, TeamUsers, ValidationError, ModularTable
-from base.models import Project as project
+from base.models import Project as projects
 from base.models import Keyword as keyword
 from public.util import *
 from django.http import HttpResponse, HttpResponseRedirect
@@ -239,7 +239,7 @@ def project(request):
 
 @login_required
 def project_config(request, project_id):
-    p = get_model(project, id=project_id)
+    p = get_model(projects, id=project_id)
     name = p.name if p else ""
     tid = request.session.get('tid', '')
     return render(request, "page/2项目管理--环境配置.html", {"projectId": project_id, "projectName": name, 'tid': tid})

@@ -379,21 +379,21 @@
             CopyID = $(_this).attr('Cid');
             // $(".js_Copymessage").html("");
             $.ajax({
-                url: '/api/v1/element/copy/' + CopyID,
+                url: '/base/api/v1/element/copy/' + CopyID,
                 type: 'post',
                 dataType: 'json',
                 success: function (res) {
                     if (res.code == 200) {
                         var data = {
-                            "projectId": res.data.projectId,
+                            "projectId": res.data.project,
                             "name": res.data.name + ' - 副本',
                             "remark": res.data.remark,
                             "by": res.data.by,
                             "locator": res.data.locator,
-                            "pageId": res.data.pageId
+                            "pageId": res.data.page
                         };
                         $.ajax({
-                            url: '/api/v1/element/create',
+                            url: '/base/api/v1/element/create',
                             type: 'post',
                             dataType: 'json',
                             data: JSON.stringify(data),
@@ -426,7 +426,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/project?p=1',
+                url: '/base/api/v1/project?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -449,7 +449,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
@@ -474,14 +474,13 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/page?p=1',
+                url: '/base/api/v1/page?p=1',
                 type: 'post',
                 dataType: 'json',
                 data: data,
                 success: function (res) {
-
                     for (var i = 0; i < res.data.pages.length; i++) {
-                        if (newNum == res.data.pages[i].projectId) {
+                        if (newNum == res.data.pages[i].project) {
                             $("#newpage1").append('<option ID="' + res.data.pages[i].id + '" value="' + res.data.pages[i].name + '">' + res.data.pages[i].name + '</option>');
                         }
                     }
@@ -507,7 +506,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/element/create',
+                url: '/base/api/v1/element/create',
                 type: 'post',
                 contentType: 'application/json',
                 data: data,
@@ -567,7 +566,7 @@
             };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 contentType: 'application/json',
                 data: data,
@@ -625,7 +624,7 @@
             }
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/element?p=1',
+                url: '/base/api/v1/element?p=1',
                 type: 'post',
                 data: data,
                 dataType: 'json',
@@ -662,11 +661,11 @@
                 "elementId": newpage1,            //所属页面ID
                 "by": newBy,                   //定位类型
                 "locator": newLocator,         //元素定位
-                "remark": newRemark,           //备注信息
-            }
+                "remark": newRemark           //备注信息
+            };
             var data = JSON.stringify(datas);
             $.ajax({
-                url: '/api/v1/element/edit/' + pageID,
+                url: '/base/api/v1/element/edit/' + pageID,
                 type: 'post',
                 contentType: 'application/json',
                 data: data,
@@ -696,7 +695,7 @@
         /*删除方法*/
         function determine() {
             $.ajax({
-                url: '/api/v1/element/delete/' + DeleteID,
+                url: '/base/api/v1/element/delete/' + DeleteID,
                 type: 'get',
                 //data:formParam,
                 dataType: 'json',
@@ -705,7 +704,7 @@
                         setTimeout(function () {
                             //重新获取下列表
                             search();
-                        }, 1000)
+                        }, 1000);
                         $('#DelXProject1').modal('hide');
                     } else {
                         $(".js_DELmessage").html(res.message);

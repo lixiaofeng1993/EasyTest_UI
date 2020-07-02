@@ -2,138 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91deb873-9c2b-4de6-83f0-51c793684365" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/font-awesome/fonts/fontawesome-webfontba72.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/font-awesome/fonts/fontawesome-webfontba72.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/comment_img.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/login_img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/register_img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/userImg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EasyTest_UI/PageObject/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EasyTest_UI/PageObject/base_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/tasks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/helperPath.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/all.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/custom-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/css/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/datetimepicker/bootstrap-datetimepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/datetimepicker/bootstrap-datetimepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/datetimepicker/bootstrap-datetimepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/datetimepicker/moment-with-locales(1).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/font-awesome/fonts/fontawesome-webfontba72.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/img/icon-sn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/Atp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/custom-scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/dataTables/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/dataTables/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/dataTables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/jquery.metisMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/klorofil-common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/morris/morris-0.4.3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/morris/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/morris/raphael-2.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/particles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/particles/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/particles/particles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/web-report-default.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/2项目管理--环境配置.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/2项目管理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/3页面管理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/4页面元素.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/5-1新建关键字.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/5-2编辑关键字.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/5关键字库.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/6-1新建测试用例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/6-1编辑测试用例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/6测试用例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/7-1查看测试结果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/7测试结果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/8-1新建登录配置.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/8-1编辑登录配置.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/8登录配置.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/9-1任务管理-设置时间.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/9任务管理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page/首页.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/EasyTest_UI.iml" afterPath="$PROJECT_DIR$/.idea/EasyTest_UI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EasyTest_UI/settings.py" afterPath="$PROJECT_DIR$/EasyTest_UI/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EasyTest_UI/urls.py" afterPath="$PROJECT_DIR$/EasyTest_UI/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/models.py" afterPath="$PROJECT_DIR$/base/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/urls.py" afterPath="$PROJECT_DIR$/base/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/views.py" afterPath="$PROJECT_DIR$/base/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/util.py" afterPath="$PROJECT_DIR$/public/util.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/views.py" afterPath="$PROJECT_DIR$/team/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.html" afterPath="$PROJECT_DIR$/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/team/team.html" afterPath="$PROJECT_DIR$/templates/team/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/2项目管理--环境配置.html" afterPath="$PROJECT_DIR$/templates/page/2项目管理--环境配置.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/2项目管理.html" afterPath="$PROJECT_DIR$/templates/page/2项目管理.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/3页面管理.html" afterPath="$PROJECT_DIR$/templates/page/3页面管理.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/4页面元素.html" afterPath="$PROJECT_DIR$/templates/page/4页面元素.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/5-1新建关键字.html" afterPath="$PROJECT_DIR$/templates/page/5-1新建关键字.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/5关键字库.html" afterPath="$PROJECT_DIR$/templates/page/5关键字库.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page/首页.html" afterPath="$PROJECT_DIR$/templates/page/首页.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -151,23 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team/views.py">
+      <file leaf-file-name="4页面元素.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/page/4页面元素.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="391" column="43" lean-forward="false" selection-start-line="391" selection-start-column="43" selection-end-line="391" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helperPath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/helperPath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="96" column="11" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+            <state relative-caret-position="139">
+              <caret line="384" column="41" lean-forward="false" selection-start-line="384" selection-start-column="41" selection-end-line="384" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -176,8 +43,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+            <state relative-caret-position="224">
+              <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding>
                 <element signature="e#150#182#0" expanded="true" />
               </folding>
@@ -185,76 +52,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/page/base.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1767">
-              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="319">
+              <caret line="695" column="58" lean-forward="false" selection-start-line="695" selection-start-column="48" selection-end-line="695" selection-end-column="58" />
               <folding>
-                <element signature="e#151#187#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyTest_UI/PageObject/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6764">
-              <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="168" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="183" column="48" lean-forward="true" selection-start-line="183" selection-start-column="48" selection-end-line="183" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cob_3_concept/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="90" lean-forward="true" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="首页.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/page/首页.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyTest_UI/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="167">
+              <caret line="522" column="16" lean-forward="false" selection-start-line="522" selection-start-column="8" selection-end-line="522" selection-end-column="16" />
               <folding>
-                <element signature="e#635#667#0" expanded="true" />
+                <element signature="e#130#139#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5-1新建关键字.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/page/5-1新建关键字.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="579" column="30" lean-forward="false" selection-start-line="579" selection-start-column="30" selection-end-line="579" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="133" column="90" lean-forward="false" selection-start-line="133" selection-start-column="90" selection-end-line="133" selection-end-column="90" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5关键字库.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/page/5关键字库.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="166" column="19" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -272,36 +121,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>messages</find>
-      <find>John Abraham</find>
-      <find>user_id</find>
-      <find>pagination</find>
-      <find>class=&quot;form-row&quot;</find>
-      <find>Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</find>
-      <find>error</find>
-      <find>logout</find>
-      <find>render</find>
-      <find>util</find>
-      <find>remove_logs</find>
-      <find>logging</find>
-      <find>from</find>
-      <find>HttpResponse</find>
-      <find>Project</find>
-      <find>home</find>
-      <find>views</find>
-      <find>team_join</find>
-      <find>Keyword</find>
-      <find>JsonResponse</find>
-      <find>as_view</find>
-      <find>project</find>
-      <find>index</find>
-      <find>新建项目</find>
-      <find>api/v1/project/create</find>
-      <find>changePassword</find>
-      <find>log</find>
-      <find>team</find>
-      <find>api/v1/project</find>
-      <find>change_info_logic</find>
+      <find>prin</find>
+      <find>project_id</find>
+      <find>api/v1/environment</find>
+      <find>api/v1/barChar</find>
+      <find>api/v1/page/edit</find>
+      <find>api/v1/page/edit/</find>
+      <find>projectID</find>
+      <find>edit</find>
+      <find>newSel</find>
+      <find>newName1</find>
+      <find>NewList1()</find>
+      <find>pageId</find>
+      <find>page_id</find>
+      <find>pageID</find>
+      <find>api/v1/page</find>
+      <find>1111111111111</find>
+      <find>newSel1</find>
+      <find>newpage1</find>
+      <find>api/v1/element/create</find>
+      <find>copy</find>
+      <find>copyNew</find>
+      <find>type</find>
+      <find>keywordId</find>
+      <find>href</find>
+      <find>url</find>
+      <find>Autotest_platform.PageObject.base_page</find>
+      <find>uploaded</find>
+      <find>projectSelect</find>
+      <find>projectId</find>
+      <find>api/v1/keyword</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -331,7 +180,6 @@
         <option value="$PROJECT_DIR$/templates/login/register.html" />
         <option value="$PROJECT_DIR$/templates/team/create.html" />
         <option value="$PROJECT_DIR$/templates/team/edit.html" />
-        <option value="$PROJECT_DIR$/base/models.py" />
         <option value="$PROJECT_DIR$/public/util.py" />
         <option value="$PROJECT_DIR$/EasyTest_UI/settings.py" />
         <option value="$PROJECT_DIR$/EasyTest_UI/PageObject/base_page.py" />
@@ -339,13 +187,19 @@
         <option value="$PROJECT_DIR$/templates/team/team.html" />
         <option value="$PROJECT_DIR$/base/urls.py" />
         <option value="$PROJECT_DIR$/EasyTest_UI/urls.py" />
-        <option value="$PROJECT_DIR$/templates/page/首页.html" />
-        <option value="$PROJECT_DIR$/templates/page/2项目管理.html" />
-        <option value="$PROJECT_DIR$/base/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/page/base.html" />
-        <option value="$PROJECT_DIR$/team/views.py" />
         <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/templates/page/2项目管理.html" />
+        <option value="$PROJECT_DIR$/templates/page/首页.html" />
+        <option value="$PROJECT_DIR$/team/views.py" />
+        <option value="$PROJECT_DIR$/templates/page/2项目管理--环境配置.html" />
+        <option value="$PROJECT_DIR$/templates/page/3页面管理.html" />
+        <option value="$PROJECT_DIR$/templates/page/4页面元素.html" />
+        <option value="$PROJECT_DIR$/templates/page/5关键字库.html" />
+        <option value="$PROJECT_DIR$/templates/page/5-1新建关键字.html" />
+        <option value="$PROJECT_DIR$/base/models.py" />
+        <option value="$PROJECT_DIR$/base/views.py" />
       </list>
     </option>
   </component>
@@ -854,16 +708,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3643587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3643587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -884,16 +738,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/assets/images/card-img-2.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/assets/images/card-img.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/assets/images/bitbucket.png" />
-    <entry file="file://$PROJECT_DIR$/static/assets/images/avatar-4.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/assets/images/avatar-2.jpg" />
     <entry file="file://$PROJECT_DIR$/static/assets/images/avatar-1.jpg" />
     <entry file="file://$PROJECT_DIR$/static/assets/images/github.png" />
     <entry file="file://$PROJECT_DIR$/get.py" />
@@ -917,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="430" column="8" lean-forward="true" selection-start-line="430" selection-start-column="8" selection-end-line="431" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,13 +899,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyTest_UI/PageObject/Gift.py" />
-    <entry file="file://$PROJECT_DIR$/EasyTest_UI/PageObject/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2964">
@@ -1096,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,45 +948,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page/2项目管理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="295" column="27" lean-forward="false" selection-start-line="295" selection-start-column="27" selection-end-line="295" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="286" column="11" lean-forward="false" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="134" column="57" lean-forward="false" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cob_3_concept/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="90" lean-forward="true" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+          <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/page/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
+        <state relative-caret-position="3059">
           <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding />
         </state>
@@ -1154,35 +966,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6764">
-          <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="168" selection-end-column="84" />
+        <state relative-caret-position="3097">
+          <caret line="163" column="28" lean-forward="false" selection-start-line="163" selection-start-column="28" selection-end-line="168" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyTest_UI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="551">
           <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
-          <folding>
-            <element signature="e#150#182#0" expanded="true" />
+            <element signature="e#635#667#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/helperPath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="1786">
           <caret line="96" column="11" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
           <folding />
         </state>
@@ -1190,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="608">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="e#151#187#0" expanded="true" />
@@ -1198,29 +1000,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="199" column="9" lean-forward="true" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/page/首页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="154" column="28" lean-forward="true" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="391" column="43" lean-forward="false" selection-start-line="391" selection-start-column="43" selection-end-line="391" selection-end-column="43" />
+        <state relative-caret-position="529">
+          <caret line="243" column="25" lean-forward="false" selection-start-line="243" selection-start-column="18" selection-end-line="243" selection-end-column="25" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.html">
+    <entry file="file://$PROJECT_DIR$/templates/page/2项目管理--环境配置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="183" column="48" lean-forward="true" selection-start-line="183" selection-start-column="48" selection-end-line="183" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="514" column="83" lean-forward="false" selection-start-line="514" selection-start-column="83" selection-end-line="514" selection-end-column="83" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/2项目管理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="235" column="58" lean-forward="false" selection-start-line="235" selection-start-column="47" selection-end-line="235" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/3页面管理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="417" column="36" lean-forward="false" selection-start-line="417" selection-start-column="36" selection-end-line="417" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/4页面元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="384" column="41" lean-forward="false" selection-start-line="384" selection-start-column="41" selection-end-line="384" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/5关键字库.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="166" column="19" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyTest_UI/PageObject/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="522" column="16" lean-forward="false" selection-start-line="522" selection-start-column="8" selection-end-line="522" selection-end-column="16" />
+          <folding>
+            <element signature="e#130#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/5-1新建关键字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="579" column="30" lean-forward="false" selection-start-line="579" selection-start-column="30" selection-end-line="579" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="133" column="90" lean-forward="false" selection-start-line="133" selection-start-column="90" selection-end-line="133" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#150#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="695" column="58" lean-forward="false" selection-start-line="695" selection-start-column="48" selection-end-line="695" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
