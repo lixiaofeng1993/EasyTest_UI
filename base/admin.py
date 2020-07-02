@@ -46,7 +46,7 @@ class TaskAdmin(admin.ModelAdmin):
 
 
 class LoginConfigAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'projectId', 'remark', 'createTime']
+    list_display = ['id', 'name', 'project', 'remark', 'createTime']
     search_fields = ['id', 'name']  # 搜索栏
     list_filter = ['name']  # 过滤器
 
